@@ -141,3 +141,27 @@ Compared modeled Patient Rating under realistic improvement scenarios using obse
 
 **Business Intelligence**  
 Developed an interactive Tableau Executive Dashboard to translate analytical findings into state-level performance monitoring and executive decision support.
+---
+
+## Tools & Technologies
+
+| Category | Technologies |
+|---|---|
+| Programming | Python |
+| Data Analysis | Pandas, NumPy |
+| Machine Learning | Scikit-learn |
+| Visualization | Matplotlib, Tableau |
+| Development | Jupyter Notebook |
+| Data Source Format | Microsoft Excel |
+| Version Control | Git & GitHub |
+
+### Analytical Techniques
+
+- Exploratory Data Analysis (EDA)
+- Data Quality Assessment
+- Correlation Analysis
+- Random Forest Regression
+- Feature Importance Analysis
+- Leave-One-State-Out Sensitivity Testing
+- Operational Scenario Modeling
+- Executive Dashboard Development
