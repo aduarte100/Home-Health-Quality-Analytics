@@ -16,6 +16,15 @@ This project analyzes state-level Medicare Home Health quality data to identify 
 
 ---
 
+## Professional Project Report
+
+A management-ready summary of the analytical methodology, key findings,
+scenario analysis, business recommendations, and responsible interpretation.
+
+[View the Professional Analytics Report](reports/Home_Health_Quality_Analytics_Professional_Report_REVISED.pdf)
+
+---
+
 ## Project Overview
 
 Healthcare organizations continuously monitor patient experience and quality measures to identify performance gaps, improve care delivery, and support operational decision-making.
@@ -162,6 +171,8 @@ README.md
     documentation/
         Analysis_Inventory.docx
         Project_Vision.docx
+    reports/
+      Home_Health_Quality_Analytics_Professional_Report.pdf
 ```
 
 ---
