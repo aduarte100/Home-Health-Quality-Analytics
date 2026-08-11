@@ -1,0 +1,2534 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0708.1337                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='cfd3ea464d4eab06ff6ef3cb664029173fa791cb42bfe648a9b54f341abd2ca2' _.fcp.WorkbookFingerprinting.true...creator-author-id='cfd3ea464d4eab06ff6ef3cb664029173fa791cb42bfe648a9b54f341abd2ca2' _.fcp.WorkbookFingerprinting.true...creator-license-type='free' _.fcp.WorkbookFingerprinting.true...creator-machine-id='209e3c876aca3f98d99d6393c983c2ec5062d9713ede7dbfe210bb45434aa9ae' _.fcp.WorkbookFingerprinting.true...license-type='free' _.fcp.WorkbookFingerprinting.true...machine-id='209e3c876aca3f98d99d6393c983c2ec5062d9713ede7dbfe210bb45434aa9ae' original-version='18.1' source-build='2026.2.1 (20262.26.0708.1337)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.DashboardRoundedCorners.true...DashboardRoundedCorners />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' inline='true' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Home Health Care Patient Survey State Data' name='excel-direct.1rldlt60rrffct181qyf006zt7vn'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/angel/OneDrive/Documents/RESUME/PROJECTS/GitHub Projects/Data Analytics/Home health/data/Home Health Care Patient Survey State Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1rldlt60rrffct181qyf006zt7vn' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:H11:no:A1:H11:0' header='yes' outcome='6'>
+            <column datatype='string' name='State Abbreviation' ordinal='0' />
+            <column datatype='integer' name='HHT Health Care Given in Professional Way' ordinal='1' />
+            <column datatype='integer' name='HHT Health Care Communicated Well With Patients' ordinal='2' />
+            <column datatype='integer' name='HHT Health Care Discussed Pain Medicines and Home Safety' ordinal='3' />
+            <column datatype='integer' name='Patients Who Gave 9 or 10 HHA Rating' ordinal='4' />
+            <column datatype='integer' name='Patients Reported Yes To Recommend HHA To Friends And Family' ordinal='5' />
+            <column datatype='integer' name='Number Of Completed Surveys' ordinal='6' />
+            <column datatype='integer' name='Response Rate' ordinal='7' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H11:no:A1:H11:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State Abbreviation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State Abbreviation]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State Abbreviation</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HHT Health Care Given in Professional Way</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HHT Health Care Given in Professional Way]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>HHT Health Care Given in Professional Way</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HHT Health Care Communicated Well With Patients</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HHT Health Care Communicated Well With Patients]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>HHT Health Care Communicated Well With Patients</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HHT Health Care Discussed Pain Medicines and Home Safety</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HHT Health Care Discussed Pain Medicines and Home Safety]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>HHT Health Care Discussed Pain Medicines and Home Safety</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patients Who Gave 9 or 10 HHA Rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Patients Who Gave 9 or 10 HHA Rating]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Patients Who Gave 9 or 10 HHA Rating</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patients Reported Yes To Recommend HHA To Friends And Family</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Patients Reported Yes To Recommend HHA To Friends And Family]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Patients Reported Yes To Recommend HHA To Friends And Family</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number Of Completed Surveys</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number Of Completed Surveys]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Number Of Completed Surveys</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Response Rate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Response Rate]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Response Rate</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]' role='measure' type='quantitative' />
+      <group caption='Action (State Abbreviation)' hidden='true' name='[Action (State Abbreviation)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[State Abbreviation]' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE'>
+            <properties context=''>
+              <relation connection='excel-direct.1rldlt60rrffct181qyf006zt7vn' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:H11:no:A1:H11:0' header='yes' outcome='6'>
+                  <column datatype='string' name='State Abbreviation' ordinal='0' />
+                  <column datatype='integer' name='HHT Health Care Given in Professional Way' ordinal='1' />
+                  <column datatype='integer' name='HHT Health Care Communicated Well With Patients' ordinal='2' />
+                  <column datatype='integer' name='HHT Health Care Discussed Pain Medicines and Home Safety' ordinal='3' />
+                  <column datatype='integer' name='Patients Who Gave 9 or 10 HHA Rating' ordinal='4' />
+                  <column datatype='integer' name='Patients Reported Yes To Recommend HHA To Friends And Family' ordinal='5' />
+                  <column datatype='integer' name='Number Of Completed Surveys' ordinal='6' />
+                  <column datatype='integer' name='Response Rate' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_5DD7FE6B535E48A992E0D9DD5705EB81]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Executive Dashboard' type='sheet' worksheet='Professional Care by State' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Executive Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_CBD1D782ED41415F8A3820ACB0A8E402]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Executive Dashboard' type='sheet' worksheet='State Performance' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Executive Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Communication by State'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Communication Quality by State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[HHT Health Care Communicated Well With Patients]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[HHT Health Care Communicated Well With Patients]' derivation='Avg' name='[avg:HHT Health Care Communicated Well With Patients:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State Abbreviation]' derivation='None' name='[none:State Abbreviation:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Communicated Well With Patients:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Communicated Well With Patients:qk]' scope='cols' value='Communication Quality' />
+            <format attr='display' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Communicated Well With Patients:qk]' scope='cols' value='false' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Communicated Well With Patients:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.6921546459197998' />
+                <format attr='mark-color' value='#0e5a6f' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]</rows>
+        <cols>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Communicated Well With Patients:qk]</cols>
+      </table>
+      <simple-id uuid='{7F63DC5D-C0CB-48A4-9BDF-6863246C6334}' />
+    </worksheet>
+    <worksheet name='KPI - Avg Patient Rating'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#0a2e5c' fontname='Benton Sans Book' fontsize='12'>Average Patient Rating</run>
+            <run fontalignment='1' fontcolor='#0a2e5c' fontname='Benton Sans Book' fontsize='12'>Æ </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[Patients Who Gave 9 or 10 HHA Rating]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Patients Who Gave 9 or 10 HHA Rating]' derivation='Avg' name='[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]'>
+            <groupfilter function='level-members' level='[State Abbreviation]' user:ui-action-filter='[Action1_5DD7FE6B535E48A992E0D9DD5705EB81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#0b3567' />
+            <format attr='text-align' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' value='center' />
+            <format attr='vertical-align' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' value='center' />
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' value='n#,##0&quot;%&quot;;-#,##0&quot;%&quot;' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' value='#e6e6e6' />
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' value='auto' />
+            <format attr='vertical-align' value='auto' />
+            <format attr='text-align' scope='cols' value='center' />
+            <format attr='text-align' scope='rows' value='center' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' data-class='total' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='48'>&lt;</run>
+                <run bold='true' fontsize='48'>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]</run>
+                <run bold='true' fontsize='48'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='3.7016575336456299' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4A5AF37C-F342-4814-9524-3229F9710598}' />
+    </worksheet>
+    <worksheet name='KPI - Avg Recommendation Rate'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#0e5a6f' fontname='Benton Sans Book' fontsize='12'>Ave. Recommendation Rate</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[Patients Reported Yes To Recommend HHA To Friends And Family]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Patients Reported Yes To Recommend HHA To Friends And Family]' derivation='Avg' name='[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]'>
+            <groupfilter function='level-members' level='[State Abbreviation]' user:ui-action-filter='[Action1_5DD7FE6B535E48A992E0D9DD5705EB81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#0e5a6f' />
+            <format attr='text-align' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' value='center' />
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' value='n#,##0&quot;%&quot;;-#,##0&quot;%&quot;' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' value='#ffffff' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' scope='cols' value='#d4d4d4' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='2' />
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='48'>&lt;</run>
+                <run bold='true' fontsize='48'>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]</run>
+                <run bold='true' fontsize='48'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8FF6F254-77F8-486E-9FE9-67BE0B24500A}' />
+    </worksheet>
+    <worksheet name='KPI - Completed Surveys'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#4b2d62' fontname='Benton Sans Book' fontsize='12'>Completed Surveys</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[Number Of Completed Surveys]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Number Of Completed Surveys]' derivation='Sum' name='[sum:Number Of Completed Surveys:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]'>
+            <groupfilter function='level-members' level='[State Abbreviation]' user:ui-action-filter='[Action1_5DD7FE6B535E48A992E0D9DD5705EB81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='78' />
+            <format attr='color' value='#4b2d62' />
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[sum:Number Of Completed Surveys:qk]' value='n#,##0;-#,##0' />
+            <format attr='text-align' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[sum:Number Of Completed Surveys:qk]' value='center' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[sum:Number Of Completed Surveys:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='48'>&lt;</run>
+                <run bold='true' fontsize='48'>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[sum:Number Of Completed Surveys:qk]</run>
+                <run bold='true' fontsize='48'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{12F35CA7-4F9D-4B8A-97E5-2CA5271A186C}' />
+    </worksheet>
+    <worksheet name='Pain &amp; Home Safety by State'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Pain &amp; Home Safety</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[HHT Health Care Discussed Pain Medicines and Home Safety]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[HHT Health Care Discussed Pain Medicines and Home Safety]' derivation='Avg' name='[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State Abbreviation]' derivation='None' name='[none:State Abbreviation:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]'>
+            <groupfilter function='level-members' level='[none:State Abbreviation:nk]' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]' scope='cols' value='Pain &amp; Home Safety Discussion ' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+            <format attr='display' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]' value='' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>State:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Pain &amp; Home Safety Dicussion rate:	</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]>%]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.7471270561218262' />
+                <format attr='mark-color' value='#0e5a6f' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]</rows>
+        <cols>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]</cols>
+      </table>
+      <simple-id uuid='{EBEAEED8-EA99-4FD1-9B52-41920660617A}' />
+    </worksheet>
+    <worksheet name='Professional Care by State'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#1f6f7a' fontname='Benton Sans Book'>Professional Care by State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[HHT Health Care Given in Professional Way]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[HHT Health Care Given in Professional Way]' derivation='Avg' name='[avg:HHT Health Care Given in Professional Way:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State Abbreviation]' derivation='None' name='[none:State Abbreviation:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]'>
+            <groupfilter function='level-members' level='[State Abbreviation]' user:ui-action-filter='[Action2_CBD1D782ED41415F8A3820ACB0A8E402]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Given in Professional Way:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Given in Professional Way:qk]' scope='cols' value='Professional Care' />
+            <format attr='display' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Given in Professional Way:qk]' scope='cols' value='false' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Given in Professional Way:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Given in Professional Way:qk]' value='#d9dee7' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f7f9fc' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>State:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'> Professional Care Rate:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Given in Professional Way:qk]>%]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.7691160440444946' />
+                <format attr='mark-color' value='#278da1' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]</rows>
+        <cols>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Given in Professional Way:qk]</cols>
+      </table>
+      <simple-id uuid='{43D48E5A-9A29-4DE8-AFA0-E7AE043B2E49}' />
+    </worksheet>
+    <worksheet name='Recommendation Rate by State'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#3f6f2a' fontname='Benton Sans Book'>Recommendation Rate by State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[Patients Reported Yes To Recommend HHA To Friends And Family]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Patients Reported Yes To Recommend HHA To Friends And Family]' derivation='Avg' name='[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State Abbreviation]' derivation='None' name='[none:State Abbreviation:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]'>
+            <groupfilter function='level-members' level='[State Abbreviation]' user:ui-action-filter='[Action1_5DD7FE6B535E48A992E0D9DD5705EB81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' scope='cols' value='Recommendation Rate' />
+            <format attr='display' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' scope='cols' value='false' />
+            <encoding attr='space' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' field-type='quantitative' max='92.541677442118171' min='-3.7527833772649482' range-type='fixed' scope='cols' type='space' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f7f9fc' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>State:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Recommendation Rate:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]>%]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.6921546459197998' />
+                <format attr='mark-color' value='#5b8f3d' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]</rows>
+        <cols>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]</cols>
+      </table>
+      <simple-id uuid='{980C35D5-C88A-4473-8B57-FD59A6AED361}' />
+    </worksheet>
+    <worksheet name='State Performance'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#0e5a6f' fontname='Benton Sans Book'>Patient Satisfaction by State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[Patients Who Gave 9 or 10 HHA Rating]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Patients Who Gave 9 or 10 HHA Rating]' derivation='Avg' name='[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State Abbreviation]' derivation='None' name='[none:State Abbreviation:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]'>
+            <groupfilter function='level-members' level='[State Abbreviation]' user:ui-action-filter='[Action1_5DD7FE6B535E48A992E0D9DD5705EB81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' included-values='in-range' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]</column>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' scope='cols' value='Patient Satisfaction' />
+            <format attr='display' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' scope='cols' value='false' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]' value='18' />
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' value='#d9dee7' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f7f9fc' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>State:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Patient Satisfaction:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]>%]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='1.7361326217651367' />
+                <format attr='mark-color' value='#0e5a6f' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]</rows>
+        <cols>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]</cols>
+      </table>
+      <simple-id uuid='{1C7B4A04-34D5-4562-869C-D39A7CE97137}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Executive Dashboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Benton Sans Book' fontsize='20'>Home Health Quality Performance Analytics</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#ffffff' />
+        </style-rule>
+        <style-rule element='dash-title'>
+          <format attr='background-color' value='#0b3567' />
+        </style-rule>
+      </style>
+      <size maxheight='900' maxwidth='1400' minheight='900' minwidth='1400' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98222' id='35' param='vert' type-v2='layout-flow' w='98858' x='571' y='889'>
+            <zone h='4556' id='36' type-v2='title' w='98858' x='571' y='889'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='4' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='7111' id='33' param='vert' type-v2='layout-flow' w='98858' x='571' y='5445'>
+              <zone h='7111' id='9' param='horz' type-v2='layout-flow' w='98858' x='571' y='5445'>
+                <zone h='7111' id='5' param='vert' type-v2='layout-flow' w='98858' x='571' y='5445'>
+                  <zone fixed-size='24' forceUpdate='true' h='3555' id='10' is-fixed='true' type-v2='text' w='98858' x='571' y='5445'>
+                    <formatted-text>
+                      <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Medicare Home Health Patient Survey | Executive Operations Dashboard</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                      <format attr='padding-top' value='6' />
+                    </zone-style>
+                  </zone>
+                  <zone h='3556' id='11' param='vert' type-v2='layout-flow' w='98858' x='571' y='9000'>
+                    <zone h='3556' id='12' param='horz' type-v2='layout-flow' w='98858' x='571' y='9000'>
+                      <zone h='3556' id='43' is-centered='0' param='C:/Users/angel/Downloads/icons8-home-care-24.png' type-v2='bitmap' w='98858' x='571' y='9000'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='16111' id='15' param='horz' type-v2='layout-flow' w='99500' x='286' y='9222'>
+          <zone h='16111' id='30' param='horz' type-v2='layout-flow' w='99500' x='286' y='9222' />
+        </zone>
+        <zone h='32333' id='16' param='horz' type-v2='layout-flow' w='51000' x='357' y='26778'>
+          <zone h='27889' id='23' name='State Performance' w='48572' x='1571' y='29333'>
+            <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='0' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#d9dee3' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+            <format attr='margin-top' value='12' />
+            <format attr='margin-right' value='6' />
+            <format attr='margin-bottom' value='6' />
+            <format attr='margin-left' value='6' />
+            <format attr='padding' value='10' />
+            <format attr='background-color' value='#f7f9fc' />
+          </zone-style>
+        </zone>
+        <zone h='32333' id='19' param='horz' type-v2='layout-flow' w='51000' x='429' y='59556'>
+          <zone h='29222' id='25' name='Professional Care by State' w='48572' x='1643' y='61445'>
+            <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='0' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#d9dee7' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+            <format attr='margin-top' value='6' />
+            <format attr='margin-right' value='6' />
+            <format attr='margin-left' value='6' />
+            <format attr='padding' value='10' />
+            <format attr='background-color' value='#f7f9fc' />
+          </zone-style>
+        </zone>
+        <zone h='31111' id='21' param='horz' type-v2='layout-flow' w='47571' x='51643' y='28000'>
+          <zone h='30222' id='24' name='Recommendation Rate by State' w='46571' x='52143' y='28111'>
+            <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='0' />
+              <format attr='padding' value='10' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#d9dee7' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='10' />
+            <format attr='margin-top' value='0' />
+            <format attr='margin-right' value='6' />
+            <format attr='margin-bottom' value='6' />
+            <format attr='margin-left' value='6' />
+            <format attr='background-color' value='#f7f9fc' />
+          </zone-style>
+        </zone>
+        <zone h='16667' id='31' name='KPI - Avg Recommendation Rate' w='33286' x='286' y='9222'>
+          <layout-cache fixed-size-h='122' fixed-size-w='77' type-h='fixed' type-w='fixed' />
+          <zone-style>
+            <format attr='border-color' value='#d4d4d4' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+            <format attr='margin-top' value='6' />
+            <format attr='margin-right' value='8' />
+            <format attr='margin-bottom' value='6' />
+            <format attr='margin-left' value='8' />
+            <format attr='padding' value='4' />
+            <format attr='background-color' value='#f7f9fb' />
+          </zone-style>
+        </zone>
+        <zone h='16667' id='27' name='KPI - Avg Patient Rating' w='32857' x='33929' y='9222'>
+          <layout-cache fixed-size-h='229' type-h='fixed' type-w='fixed' />
+          <zone-style>
+            <format attr='border-color' value='#d4d4d4' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+            <format attr='margin' value='8' />
+            <format attr='margin-top' value='6' />
+            <format attr='margin-bottom' value='6' />
+            <format attr='padding' value='4' />
+            <format attr='background-color' value='#f7f9fb' />
+          </zone-style>
+        </zone>
+        <zone fixed-size='204' h='16667' id='29' is-fixed='true' name='KPI - Completed Surveys' w='32071' x='67143' y='9222'>
+          <layout-cache type-h='fixed' type-w='fixed' />
+          <zone-style>
+            <format attr='border-color' value='#d4d4d4' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+            <format attr='margin-top' value='6' />
+            <format attr='margin-right' value='8' />
+            <format attr='margin-bottom' value='6' />
+            <format attr='margin-left' value='8' />
+            <format attr='padding' value='4' />
+            <format attr='background-color' value='#f7f9fb' />
+          </zone-style>
+        </zone>
+        <zone h='34444' id='37' param='vert' type-v2='layout-flow' w='47786' x='51500' y='60222'>
+          <zone forceUpdate='true' h='4778' id='38' type-v2='text' w='44500' x='53143' y='61666'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='22'>Executive Insights</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='6694' id='39' type-v2='text' w='44500' x='53143' y='66444'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Top Performing States</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Alabama and Arkansas consistently demonstrate the strongest patient satisfaction and recommendation scores across the evaluated states.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+              <format attr='padding' value='0' />
+              <format attr='padding-left' value='40' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='6694' id='40' type-v2='text' w='44500' x='53143' y='73138'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Key Driver</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Professional Care received the highest average ratings, suggesting that patients place significant value on courteous, professional interactions with providers.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+              <format attr='padding-left' value='40' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='6694' id='41' type-v2='text' w='44500' x='53143' y='79832'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Improvement Opportunity</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Recommendation rates remain lower than overall patient satisfaction, indicating opportunities to strengthen patient experience beyond clinical care.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+              <format attr='padding-left' value='40' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='6696' id='42' type-v2='text' w='44500' x='53143' y='86526'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Business Impact</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Improving communication quality and patient engagement could increase patient satisfaction while strengthening referral potential for home health agencies.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+              <format attr='padding-left' value='40' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#d9dee7' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+            <format attr='margin-top' value='0' />
+            <format attr='margin-right' value='6' />
+            <format attr='margin-left' value='6' />
+            <format attr='padding-top' value='12' />
+            <format attr='padding-right' value='16' />
+            <format attr='padding-bottom' value='12' />
+            <format attr='padding-left' value='16' />
+            <format attr='background-color' value='#f7f9fc' />
+          </zone-style>
+        </zone>
+        <zone h='5556' id='54' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-thumbs-up-48.png' type-v2='bitmap' w='3571' x='2429' y='17000' />
+        <zone h='5556' id='57' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-rating-circled-48.png' type-v2='bitmap' w='3571' x='35786' y='17000' />
+        <zone h='5556' id='58' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-work-authorisation-48 (1).png' type-v2='bitmap' w='3571' x='69071' y='17000' />
+        <zone h='3556' id='63' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-trophy-64 (1).png' type-v2='bitmap' w='2286' x='52929' y='68111' />
+        <zone h='3556' id='64' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-three-stars-64.png' type-v2='bitmap' w='2286' x='52929' y='75000' />
+        <zone h='3556' id='65' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-box-important-64 (1).png' type-v2='bitmap' w='2286' x='52929' y='81889' />
+        <zone h='3556' id='66' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-positive-dynamic-64.png' type-v2='bitmap' w='2286' x='52929' y='88778' />
+        <zone h='3000' id='83' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-out-patient-department-50.png' type-v2='bitmap' w='1929' x='25786' y='1667' />
+        <zone forceUpdate='true' h='3333' id='94' type-v2='text' w='99714' x='143' y='98222'>
+          <formatted-text>
+            <run bold='true' fontcolor='#555555' fontname='Benton Sans Book'>Source:</run>
+            <run fontcolor='#555555' fontname='Benton Sans Book'> Medicare Home Health Patient Survey State Data | Analysis Date: May 12, 2025</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Benton Sans Book' fontsize='20'>Home Health Quality Performance Analytics</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='2150' minheight='2150' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='120' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='119' param='vert' type-v2='layout-flow' w='98858' x='571' y='889'>
+                <zone h='4556' id='36' type-v2='title' w='98858' x='571' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='4' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='27' h='3000' id='83' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-out-patient-department-50.png' type-v2='bitmap' w='1929' x='25786' y='1667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='24' forceUpdate='true' h='3555' id='10' type-v2='text' w='98858' x='571' y='5445'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Medicare Home Health Patient Survey | Executive Operations Dashboard</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='24' h='3556' id='43' is-centered='0' is-fixed='true' param='C:/Users/angel/Downloads/icons8-home-care-24.png' type-v2='bitmap' w='98858' x='571' y='9000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='128' h='16667' id='31' is-fixed='true' name='KPI - Avg Recommendation Rate' w='33286' x='286' y='9222'>
+                  <layout-cache fixed-size-h='122' fixed-size-w='77' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#d4d4d4' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f7f9fb' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='128' h='16667' id='27' is-fixed='true' name='KPI - Avg Patient Rating' w='32857' x='33929' y='9222'>
+                  <layout-cache fixed-size-h='229' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#d4d4d4' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f7f9fb' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='128' h='16667' id='29' is-fixed='true' name='KPI - Completed Surveys' w='32071' x='67143' y='9222'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#d4d4d4' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f7f9fb' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='50' h='5556' id='54' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-thumbs-up-48.png' type-v2='bitmap' w='3571' x='2429' y='17000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='50' h='5556' id='57' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-rating-circled-48.png' type-v2='bitmap' w='3571' x='35786' y='17000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='50' h='5556' id='58' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-work-authorisation-48 (1).png' type-v2='bitmap' w='3571' x='69071' y='17000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='252' h='30222' id='24' is-fixed='true' name='Recommendation Rate by State' w='46571' x='52143' y='28111'>
+                  <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='251' h='27889' id='23' is-fixed='true' name='State Performance' w='48572' x='1571' y='29333'>
+                  <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='263' h='29222' id='25' is-fixed='true' name='Professional Care by State' w='48572' x='1643' y='61445'>
+                  <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4778' id='38' type-v2='text' w='44500' x='53143' y='61666'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='22'>Executive Insights</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='6694' id='39' type-v2='text' w='44500' x='53143' y='66444'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Top Performing States</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Alabama and Arkansas consistently demonstrate the strongest patient satisfaction and recommendation scores across the evaluated states.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='32' h='3556' id='63' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-trophy-64 (1).png' type-v2='bitmap' w='2286' x='52929' y='68111'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='6694' id='40' type-v2='text' w='44500' x='53143' y='73138'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Key Driver</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Professional Care received the highest average ratings, suggesting that patients place significant value on courteous, professional interactions with providers.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='32' h='3556' id='64' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-three-stars-64.png' type-v2='bitmap' w='2286' x='52929' y='75000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='6694' id='41' type-v2='text' w='44500' x='53143' y='79832'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Improvement Opportunity</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Recommendation rates remain lower than overall patient satisfaction, indicating opportunities to strengthen patient experience beyond clinical care.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='32' h='3556' id='65' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-box-important-64 (1).png' type-v2='bitmap' w='2286' x='52929' y='81889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='6696' id='42' type-v2='text' w='44500' x='53143' y='86526'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Business Impact</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Improving communication quality and patient engagement could increase patient satisfaction while strengthening referral potential for home health agencies.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='32' h='3556' id='66' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-positive-dynamic-64.png' type-v2='bitmap' w='2286' x='52929' y='88778'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3333' id='94' type-v2='text' w='99714' x='143' y='98222'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#555555' fontname='Benton Sans Book'>Source:</run>
+                    <run fontcolor='#555555' fontname='Benton Sans Book'> Medicare Home Health Patient Survey State Data | Analysis Date: May 12, 2025</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1ABBDA1A-CBA3-468E-85B3-C9420D919C54}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='30'>
+    <window class='dashboard' maximized='true' name='Executive Dashboard'>
+      <viewpoints>
+        <viewpoint name='KPI - Avg Patient Rating'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI - Avg Recommendation Rate'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI - Completed Surveys'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='4' />
+        </viewpoint>
+        <viewpoint name='Professional Care by State' />
+        <viewpoint name='Recommendation Rate by State' />
+        <viewpoint name='State Performance' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{DF28A9B7-8F55-4B51-8141-8198AFF31445}' />
+    </window>
+    <window class='worksheet' name='State Performance'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5CD811DD-B3DA-41BC-8D81-A9442F3E6BB3}' />
+    </window>
+    <window class='worksheet' name='Recommendation Rate by State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A0BA99C5-20DC-4BB9-BD96-7A258105722B}' />
+    </window>
+    <window class='worksheet' name='Professional Care by State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F2006470-35A4-4B28-83DE-DCBB22BB36CF}' />
+    </window>
+    <window class='worksheet' name='Communication by State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{09EF5C34-95B7-4CF2-ACD7-C7CA867E6449}' />
+    </window>
+    <window class='worksheet' name='Pain &amp; Home Safety by State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{28179AEB-ED3B-44B3-A6D2-DDC623FC7ED7}' />
+    </window>
+    <window class='worksheet' name='KPI - Avg Patient Rating'>
+      <cards>
+        <edge name='left'>
+          <strip size='240'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='48'>
+            <card type='columns' />
+          </strip>
+          <strip size='48'>
+            <card type='rows' />
+          </strip>
+          <strip size='46'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{7407ED90-2AFF-47C9-B026-64A68FA3163B}' />
+    </window>
+    <window class='worksheet' name='KPI - Avg Recommendation Rate'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{2EF884A8-4921-450B-941B-1CBDB13BACB7}' />
+    </window>
+    <window class='worksheet' name='KPI - Completed Surveys'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{8C02F859-7C5F-431C-9720-7D4D1267E187}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Communication by State' width='192'>
+      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
+      qfkAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Executive Dashboard' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO2dd3gc1dm379m+q13tqqx6l6xquXdsirGNIRRTQyC0l/IREpKQBgnJG78J
+      JQmBBBJCLwmBEDoYYzDY2LiBe5Fl2eq9a3vfmf3+kJEtbNkm0Uq2Nfd1+bJ2Zk6Z2fntOc8p
+      zyNEIpEIMjJjFMVoV0BGZjSRBSAzplEd/mH2tfexp7pltOoyZlAqFIiSNNrVkOErLYD88kef
+      8ePSuXTBFC48ayKCcPzrr7h8MeeVpwBw3qIzufbswv+6Dj/53jUUJaoBuPXGSzlrXMKxE5gS
+      eOauCwEdv7r1XACu/daFR00XG5/A0/ffzvq/38NvbjoL5deozyP3fhs98J0bL+Rg9Y7KX+6/
+      kxVP/Ig3HrqVecXJx8x77pkzef2PN2Ee4rzcBRpBFswqZc7EAjp7neze38w3F8/AFKM7ZprM
+      9BSSzf3XJCdbybaaQKHiwnOncdmZpagEKC7MZVpxJtdfPIfclDiuOH8Wk3P7X87JE4u5dvFU
+      YtSH1FZUkI1J2//V5+WkYzVp0ej0XHX+bOaWpvWXlWLluovnckZJKqi1TC1MY+L4Qm5YMpfz
+      p+WTnZVGWX461108m8w4/UDe9919A+tXfMTcG/+ALmc8N51TwMwpJcTrFaSlpzA1PwmVVsdF
+      507j6gUTUAuH6rN6YwWpmWlcd8lcrl44gTmTS7AaVSg0es6bljdQxuTCBK76ziPc/cJGHvr+
+      RSAoWHTWVJbMLUIAZk4pYWJhBufNKuWuaxdQU3EADzB31gSuOW8KJm1/XWaUZMoCGCkWzCql
+      rdtOe4+DrRX1lBdm8O8Vm7n+ojnHTfvDO65hxRM/4oeXTgXgx3d+mwXF8YyfPp0Hb5rL+YvP
+      4ufXziM1O4c3f38jKrWe535xJTPnzuZ/r5qKFJPIn767aFCef/7t91jxxI+4dGYuAH994A7i
+      hAC33HIVs7JiufHSebidHv724K3EDlGvM2eWYE3L4jc3nTVwbE6BmVfX10NE4o1VOzljcgG3
+      XL+EvHg1k6ZM4Pr5pSw+ZxpWncDCxedy9ZzsgbT33LEE/WH55xUVcst55Zwxdzrzx6ceOqHU
+      cuMVZ3HNeZNpaO7i9lu/yaJiC2UzZvKdRcXccv0SfnzlLPzBEABSBL5x0SLu+kYZ+sR0Xv7l
+      FUyaMoGnfn6VLICRoq3Ljs8fxOMNcNHZk9CoVRRkJ3OgsfO4af/29L+57AeP8bf3dgAwfXwO
+      T7+ykr+8vo6Z5fkAvPvRRlbtaGDbtr28+vEeFBoV08bnYU1O4oKp2UiDzT3u/s2TXPaDx3hv
+      SwOgYGZJBnPnTsUQCWG1xqHT6zhn+jgiatXAS7mroh63x8WKrbUAvLFsHR9trkGjPpS3LSiQ
+      EtP/WiXFmei1e464n4AocPaMEkxaFTEG7aBzTc1tdDj9LP90N29+uJHF507nqoUTeWn5tkMX
+      RSI4nB62bNrMDX9YxszxeRQV5VOWYkBvNALw2IvLWLu9mgPtDjZs3c/E8jxeeXsNz738CTkl
+      /a3Jhx9vkgUw0qzevA+PL4AgCJyACQBAMCziC4YJitLBPKr4yW2X8subFrJ6874h023cVoXT
+      5WTl5/vYsn+wfRcIhfEFw4hSBJBYs7OefRX72VHTSq1D4Mrp6Wyv7UKjVKIceEvCKGPiuXB6
+      3leLGuDRV9bzzIO38v1vL+IXV07hufe34XT7uGbJfK5bNBGAG684i+07qxGUShSKI59CIBDh
+      qsWT8dm72enUU6y0U9HtP3SBFOTtlVv58PMDBMQIa7ZW0d7WydqdDeytaT1qvdZ+sY+brlnM
+      T79zMfu2H3pmwuETYcYZtw95YzL/HaV5aSTGGWnu6GNCYSZGg5aNO2sYX5DOsrW7hkyXkZ5C
+      yG2n0+EnOTkRreSnqdvDtIkFaEU/GyqaB67xoiHVqORAu5tphUlsrWplXF4mWYkGvthZjTvY
+      L6DCgizam5pxBSPk5qTj7ummLwBzJ+XjttnYVtNBeWkeOtGHJ6KlobmNkowEtlW3U1SQhVkZ
+      psMbwWfrxYOG7Dgt+5p7B+pcMnEiKx+8gtt+/SKf7qhDY4xlelEKdS19KKUQTlHF+Ox46tps
+      SEEfOnM87U3NFBRks7uyAWtKEuPTjWyqbOW2W67CtWcTz66pGch/cmkOuysbEAeOCEydUECM
+      IsSGnQ3kf+X+HF1d9HlDFBdmk2pSs2FHDca4OMwqcbAA0uffhcPtG9YvXqYflVLBuOxkvvq7
+      39nnpNfuHqVaRY8FZ89gXlkaz7y0jBanePwER+H2G5eQo/ez9KkP8Udp1HiQABrbemlq7z3W
+      9TIypxWCvBZIZiwjG8EyYxpZADJjGlkAYwCXyzXo/34kvG4vx7ItpZAff0jC6zv2wIjP5z34
+      /+Dr/H4/oVBoUPrGuurDBloihEJhQqHQoHRffg753dTUNx+z7IE0fj8iYO/torq24Zj3FQqF
+      BsqQbYAxwF8fepQbbryE1z7cw9QSK0mpaTS3NmNv8lE0Zxw93S7idAJhlZ7e5nYSU80otBbS
+      VV2srFcjutspz0pGiEmgt/UAkqDHYk0m4OgiNbeEA3s2kpJeQFNrIyatgbTsPBrrm9DptTTW
+      VCCYLGQkZzB9ykTWrfuYgF9BenIcqBUcqLEzqSyZ9g4bxgQrnt4eupx9zJwxj7o9WzCn5BBr
+      NqIUBJy9nbhCArkpifS4HIRRYTHEIAgRxPZO9FMmsXv5h2SXl6NRRBAUCno7WohPSqaxsZWU
+      rFzi1Eo+37ae1JzxJMfFyC3AWGBCYQZvrq6gNAX2VLazefVn5JSX4evrY19zF0V52TjdXjpa
+      axDUevbtrqC1vR0Ak9mCTqfB5g3Q292GpFAgRQSCjhr2VLbT2t6OQqUiLi4Of/te6uxB9u3d
+      T6C9EweQW1hMnCWecMAGQEtDLZNnTMfjC9Fls5OdlkL1ljW0+/ys31JFQUIAlzqNpPhY8krK
+      CbTvY9u+ZhoaG+m2uSnLMPHBht3U7N1Ne2sX9Xu/oM93aGhZrdGRYDHj6m6ivq2Fil11fPHJ
+      WvInTqC9tZnWhkbi0rKIhL10tLXKLcBYwGF3IIZFlColtu5WLKnZtDY2kBSXiM6opr3Xg0b0
+      oIlNwKjVEfDaCSr0pFi0eDEg+t34nH0o9HHo1AAKlEqBnvZmLGn5CGEfZrMFh9NBR1Mj8cmp
+      9PbYSEpPI+S2o9Cb0Cgi/dc47JjNZg5U7iUuNYuAx4nFEktTfQMJGdnEayM4fRKCWodG8lDd
+      0kduioU2m4f0pETM5lh6enpRRIK4AyIHDtRw7vyzad+zF315GYGmepo6eskrLEQlRHD2dGC0
+      ZtDWUE9GejLt3Q5Sksz4wgqsRqUsAJmxjdwFkhnTyAKQGdMMWiMriiIerxe5U3TqoVapMBj0
+      Rz0XDAbx+QMjXKNTg0E2gMPpQqs7+kOUObkRRREFEnq9/ojjbq8PrfbYO8/GKoO6QJIk//Sf
+      qiiVSsLhI1dd+v1++eU/BieFDSCGArQ5jtw5dDjNHR3srG8lFAWRdvTZD9VFDBMIi9hcQ9fn
+      QHMzFS2dHF4TbyA47PWSiT7KpUuXLv3yg98fQK0+xnb8KLFh61Ze2lFPWYIOn0JHY3sHFTW1
+      BJQGEo39v15Pr1hFUqya93a2oQzY6PBByGPjs9p2UmKULNtaSZolhtW799PQY2N3Uyd6QmzY
+      X0trr51WZ4Cw18aW5j5Ej5vPa+uIMZr5fNceXvm8gsKEGFZWNNDdVs3z21tRhrwYFCIfVzaS
+      oIW1lbX4JCUpsQb+tOxj9CE3FQ6ob6glKEa496W3KcnOZENFJRZLPEat6jh3PfxIYhitVjPo
+      WCgUQqEc+bocSYT/d9dDTD9zJkGPFzEUBIVAV58bFSJ2TxCVINFl82DUq2jtcqBRK3E6naDU
+      olYK/Py3T7KjogavNg6TIkhEEHj87yuI1wnYJB2iz41Gr8Vuc+Dyhti4Zi0dWMhKMHDnPQ+z
+      bU8dcZm5CH7XQNqT4cnwSVU9vQ4/AamIV1asxKTXU2ULkN3ppviCeQCEQ0HeXL+L6xefxRMf
+      byXP2o6CMN8+YxrPrP6Cm+aU8uwnGzFYs+itrabApOVjWxdzSvJ5Y28XJn8zHb1dxMWY2adR
+      s3hmIc+v+ITM3FLidR3UdnSzv3ovKVOmMiXfyP66KvY2tbKwwMrf126jpGwSq7ZuZ2LGInw+
+      L+/v9fLrq8tZuaudndv2MTk3g57m/ey3SfRsq+Tms6eM8lM9uehpOEBGbjbvrdmHq72OWK0W
+      p7OXxg4nxYWZhI1p5GsdPPfWDi48txikMGF1LBt3HCAzK53f3v4NIhEwmwyow24ef2kV6ONw
+      dHfT1BBDXUUz2/Y1U1SQRnt1C0G9llmpSrzJB9cdKRS4fSE0YReP//uTgbSjLgAp5GFK2WTu
+      SNNR4VETCYf55lnTeXntNsbnZ7Fu7wHmlRUyLjuHm/OT2WmLMCMjnoz0TAKOLpbvqmZWbhqv
+      bqnmzNJ87MSQpEjDqgKXoCLZbKIoJYzKI5AdbyCsNmGUQiSYjJTm5VLfWodSF0N7nwNrfALx
+      sSb21veQkRiHXgjxWZOd2eMyMZiNBKxxAEwvLaXYrKWmvQdPWCDTakEVcGOwJGOydTAlP3OU
+      n+rJx4rPa5k1o4yN22s4I8fETreORKMXTUE8KbFK8meU8cbf/0lRehyGGDVvranjlzcv4kBd
+      G9PLcgCwpqVx2/UXU7trG+EYK2ZNBK1JQ1iKoNZoSbCYmFyShcInEhRCZKUZaPL27yXOy88l
+      XivQ0dg4KO2gUSCb3YneYBiVByTz3xMK+DGZjIOOeTwelGrtEClGH1GUUB7cdS9JEgqFwHsf
+      fIZKr0EVk8KCqdkICsURTsQkKdJ/LAIo+jeaHp7XwHWRCIqvJD48rSyA04hTUQCjzUkxCiQj
+      M1rIApAZ08gCkBnTyAKQGdPIApAZ08gCkBnTyAKQGdOM+kzw12F7XRNN3X1Dnp8/oZgYrYbl
+      2/YMubJ1XGoSZVn9QSC21jTw/rY9pFrMfPusmcToBo+Xf7J7H1qVinml44bvJmSOitcfZHtl
+      A063j+y0RErz0xCOEUKnvrWbUEgkMc5EvDlm4LjT7ePz3bWkJJopH5dxRB4dPQ7CokRGcv+s
+      /tcWwO6GFt76YgeN3b0YtFpmF+Zy2awpGL6yCCsavLh6I//esHXI8+sf+BlZifF89+l/EQyH
+      j3rNnRecQ1lWGqv3VHHDYy+waFIpH+3Yy/vbdvP23XegOjiT2Njdy/974p+8c88dUbmXkwVR
+      kvhk014+2lBBj92FNc7EeXPKWTC7FIViZDoIr3+0mbsfeQ2n55AL9Cml2Tz3m5vJTIk/4vrt
+      lQ0svv1hJCnCr+9Ywp3XLACgpqmTS+58FFGSsDu9/M9lZ3L/9y8fEIHL42f+zb/nwR9cMSCA
+      E54JDosiv3ntfZ75eD2iJJESZ6bD5kAQBHKTEnj2jusZn50+fE/lKHTYnTi9g50vhUSRKx96
+      imRzLJ/8310oBIGajm6+utd/Q1UtP3/pLVb86vtMzsviwvv/wsScTO6/dgldDifTfvIAL37/
+      RuaXFwNw+5P/JDMxnnuvuCCq9zScfN2Z4F67m9t+/QJrt+0HIBKJDLws50wv5qmlNxJvNh41
+      7XBRWdvGOf/zO2ZPLGDpHUtIT7KwZksVP3vkNcry01n2+A8H/YqLksQFtz+C2aSnoqaV73xz
+      /oAArv/F04iixEsP3saOqiYuuP1hVj7zUyYWZQHwwDPLqKpv5+/33zqQ5wlL/NH3V/HUynVI
+      kQhatYp19/8Ea6wJgPquXq7983P0OKPr5jvFEkthWvKgf5XN7fS6PNz5jXNQKhQIgsC41KRB
+      14xLTWL51t2cWVbIpNxMwqLIvpYOphf0h+dJMseSm5xIRVN/cIWttY3sbW7nRxcvjOr9jCai
+      JHHb0sEv/41L5g78cHy6pYrbl76IFOVolp9trUIUJf5097eYVJyFNT6WK8+bwQ2XzGXr3no8
+      vsFbOV/94Asqalr43Q+vRHtYZBpJkvh8Vy0XnzMZhULBlJJsslIT2LijP65Aa5eNf33wBb+7
+      66pBgjohAXQ5Xfzlg08BEID7r12CQatBjEgYdVoE+n+d//bhmv/uaXxNREnirx98Sm5SIhdN
+      nzjkddvrmli/r4YFE4r7I7MIAiqlgpB46MsNhsOolSqkSITf/Pt9/nD9Zeg1I783YqT4eONe
+      1m7dTyQSQZIiTCzK5NF7rqF8XAaSFCESibB6SxWrvqiMaj2yUhMB6Op1Djre2eMgMc6E7rDv
+      wO7yct9T73HH1eeSl5k06HpJihAIhtGo+kUhCAI6rWYgTth9T77Hz246nzSrZVC6ExLA+soa
+      fAcz+p8FZ3DbonmY9DoannqA1ud+z9nj+0N3frxr6HA90eC9zbuoau3gx5csRK08ekBOKRLh
+      j++uJN4Uw5Vz+oPMKRUK5paM4/2tu2ns7uWTXftotzmYVzqONzZuY0p+FpmJ8Sx9dRmX/+FJ
+      Hnnv46i3biPNyo0VRCIRzp83gX89dDtvPPJdVEolbz16J288cgcXzJtAJBLh4417o1qPxXPH
+      c/nCadz0y2d58t+fsmLdbn7w4Mu8v3Ynj/zsW6hUh77X3z+3HI1axQ+vW3REPiqVksKcFHbt
+      bwL6u3f1Ld1MKMxkR1UjXX1OrrlwNh9tqOCPL6xg067+luGEBNDrOvTll2SkHHFeedBYOvy6
+      aBMIhfjNa+8zKTeTy2cPvflk9e4qVu/Zz48vXkic8dBowUPXX06f28uMnz3IrU+8xMM3Xkms
+      Qce/1m/hF5edz9UPP0Onw8mPL17I2r3VfP+5V0fitkaMHrsbQRBYs6UKvVZNWlK/UZhmtaBS
+      Kfl0SxWCINAT5eg1CoWCyxdOw6DT8vQba/jrv1bx1idbWThnPJOKswauW7FuN8+/tY4X77+F
+      GP3RbZo/330NLy/fxKTLf8XEy3/FtRfOZtaEfO599E1euO8Wrr37Ke5/+j2kSIT/t/RFfv6n
+      109sFCgxdmhDKBgOs622X3WJpugaTIfz+sZttNkc3HfNkiPWe39JJBLh0eWrsMaa+Na8GYPO
+      xZtieO/nd9DWZyfeZESrVnHtn57lJ5cspKK5jdqObt742e2kWGL56ZJFXPXHp7G5vcQZT4/l
+      4ta4/u/KHwjxwDPLWTRn/MC5+55ahj/Q3+InxkX3O/1s636uu+dp7r3tIu68dgGCINBrd3Pl
+      jx7nsh/8hdXP340oSvzyL2/yzfNnUJqfRuBgbyQSiSCKIoFgCI1aRVlBOhtf/hWrv6gkKzWB
+      WRPy+eVjb3LNBbPo7HWy6vNK1v39FxTnpVKUk8KdD/zzxFqAuSXjBvrDB1o7B42x725spefg
+      L//CSaXD/XyOSlgUeXzFGgrTklk8pWzI6zbtr2NzdQO3LZp31GFaQRBIT4hDr1Hz2oat6NRq
+      5hTl02l3olYpiT/4sqfExSJKEn3uY2/cP5U4b075wN8leSnsrGriR3/4F9v3NVKceygm73mz
+      y4+WfNj45/ubiNFruePq+QPGaYLFyPeuWUBVfTub99SxYt1uGtt6eWX556TPv2vgX0unjfue
+      WkbWgh/jOrjzyxpn4puLZzJ7YgFbKur5Yk8d37pgFtWNHWjUSnIzrACUFaTj9QdPrAWwxhr5
+      wYXn8ru3PuTpj9fzxqbtA7+63mAIpUJBWpyZOxafdZychodlW3dT19nDY7dcPdD9+iqRSITH
+      lq/GbNBzwzmzj5lfh83B/W98wHs//y6CIJBsiSUYFul1eUiNM9PW50ClVJBgijlmPqcSC2aX
+      cs6MYj7dXMUnmyp5efnnSFKEZ9/8jKSE/tDYC2aWcs7MkqjWQyFAMBTG5fUTF3vo+Xb19RvF
+      CoWC2ZMKeO3hI+djvnvfS5x3xngumX/kPJQvEOSu37/C7+66EqVSgcmoJxyW8AeDaDUqHG4f
+      gvA1JsK+/435uLx+nvhoLX1u76Bz+SlWnvnOdSSMQBdIlCQeW76abGs8l86cPOR1OxtaWFOx
+      nx9etADzEB7ToF8o97z0NpfPnkJucv+IxITsDApSrPzylXe5/uxZ/O6tD1kwoQRLzOnR/YH+
+      F+upX9/E7f/34qBYw1IkQkePgwWzSnnif284ahzf4eSqxTN44+Ot3Hjvs9xzyzdISTCzcWcN
+      v39uOQVZSUwry0GjVpH6ldEbAJ1WTX5WMufMOFKkD7/4IXmZScyd0j9AM6Ukm1ijjhffWc8d
+      V5/Li++sY3xBxokLQKlQ8L/fvJDLZk/h7S920NTdh0GrYWZhLpfOnDxiQ4ZVrR1YDAa+d/45
+      aFRHH/kB2LCvhrklBdyyYO4x89tZ34zT5+OuCxcMHFMpFTz/vRu46/nXuO7R5zm7rJCHb7xy
+      2O7hZCHeHMOrf/wOqz/fx8pNFfTY3VjjjCyaXc45M0ui/vIDzJ9ZymM/v5ZfP/4OF333zwPH
+      p5Xl8sSvrh8Uhf5E2b2/mWfeWMvq5+8e6FbF6LU88rNruOO+f/DbJ9/DGmfilYdul/cEn06c
+      ynuCg6Ewuw80EwiGSbVayDvYV/9PCIdFpEjkqOKxO73UNHdRVpCGXit7hTitOJUFMFrIy6Fl
+      xjSyAGTGNLIAZMY0gwRwrA0IMic/R/v61Go14a/E4ZU5xCAjWI4Qc+qiEIQjDOAvkSPEDI0c
+      JVJmTCPbADJjGlkAMmMaWQAyYxpZADJjGlkAMmOaQauFgqEwgWBIHgaVOaXQadVHXfjm9gYQ
+      RYljvc4DqURRwh8Mo1FH38GVjMxw4j+4Kevw8EgeXwCVSoXqOKupB1L076s8fd2AyJy+aNTq
+      gX3CXyKKJ9aNkW0AmTGNLACZMc3RBRD08Jflq3jq4w20uwb74txZ3wSE2FTVOGSmlXVNBA/+
+      7XbZ+euylby7s3pwET43le19dHR1UNd7yPdMRAzyz0/W4xKPnveu+iZAZFNV3TFvrKGlkZre
+      o3txiEghXv5kLc+s3oxfjLCrrumIa/rvU+Z0YNXG5/nbu7/nmQ+fJ/SVnpFy6dKlSwFCYRHh
+      Sw8LXht/39nG9dOz+POH20kziLy7fT9xBg0/+8dbFGSm09XnJsEg8PK67aQnJbOr+gAb9x5A
+      q9Oy9KW3UFoSKE2O5+UP3id//CzUXhtp1jg++Hwrld1ubG01/HHVDkpSE5BUOnZU7GZnm4Pe
+      tmr+vqOdc4tTeH3dFpT6WPA7eGXDDsw6Dfe89BY56el025wkG1W8tHYrlrh4Gpqa2dPUQLMr
+      TE6CmW17drByfztdbj+Cz4EqxsLeujqS4uOp2b+HDb0KFuVa6HEH+NUrb5ORkkZXRzMr9tQR
+      qxW4+6W3KcsvoKp6Hzs7XRQfdOEnc3ISiUioDxsJCgTDKA96C9y47V0uuuBeWqveQJ8wnhXr
+      XmB/VwdpMaqhu0CVtTX8Y+0u5k0sornbRk1dFVs6fGQmxFGWZmJtRT33/+sdFEKIP32wgRdW
+      bWRWTiIvflFNXkIc0wsyALhs/ny2b9/Ex1UNuH1eul0+nv7gUzJSrORlZOJ3dHOgtY1/bqpE
+      qYCCZCuF2enY+/oIhvw8sXIjf3jnEy6cXES3TyIrIY7y9AQ+3VvDQ299xMKpZTzy9ocs3/A5
+      KZl5vL5mw8A9JCYkUbt3GzU9Nt7avo93tlaiEqBwXCnpCgfPr9uJpNaRlRDPpCwrzT12dlRs
+      p9arJjMxDrO/iyc3HmDVurXssweHelQyJz1B/vHWPVSHUnG1fEKD3Ull5ae8t+mVoQUwuaSU
+      X197GUvGJ/PvTfsYl5yAoFAiSCFs3v6XwaTXodUYOKs4G5PRRHKsgQgKYrQKOuz93Y81Oyso
+      zCtAH3LyweZdNPogxahFr9PS53QSlCKIgoorZ43nndVrsUXU6LUaXlu3mfSUZDRCBJ1KQW1n
+      NwFJQBkR6TvoBMmgUVLb0YNKpQbUZFgtaJSHFsX3OOzYAiKTx5ezcc0HTCyfBEB9cx1ORSyz
+      Mi180dSDWpDo6mrjjV1N5FnjUCpVhIMBfJKAQaWgfFwhSfqhPVDInOxouP6y+zGH20lMKkWv
+      EigqPINpeZMPLYf2+gIolAebkHCQmj4PBQf9Re6tq0el1WM2mQl4bIhqPVJIIjNOz+baFsrz
+      c+mx2chNjKXREcCiEml2hZmYmUREDPPFgTqMsXEUW018XttCoslEfrqVXQfqSLUmotbo6Opq
+      J6w2UJYUS6s7hIEgLe4QsRoVabF6tjZ2MKMon56eTvyCFsQw2fFGPq9tpjwvF7vNRnpqEo3t
+      XRSkJmFz2GixuVFqDBgVIR5e9im/u/lb6A9Kfl9DA7agglnjsujo6cItqfA4bRgMMSRY4rH3
+      daIzxRN027CLSqZkpx710cqcHEhiGMNhPkOdbj+aIVz1SJIIggKFIAwhgNOMutZW0BrJSzSP
+      dlVkosTXEcDhnJ5v/FfIS49u5BqZUxd5HkBmTDMiLcBD73zEH99dORJFyZyizCnK5+1RCEgY
+      FQE07N9DXFYpQVcv1qSk4yeQkQFCoRA7dmxHqVQSCoWYMmUqGk10F2cOfxcoEsYTjNDb2dpv
+      bcvInCCiKNLb24vL5SIYDNLd1RX1Moe9BYhIIgUl5SAG6e5oJRCObpRBmdMHlUpJYmIiSUlJ
+      9PX1kZqWFvUyR2QYdENVDRuraqOSt8ypz0+XnPdf53HyDINGwnT3ONGqIniCEqnJVjZW1cpG
+      sMyQDIcA/lOG3Qawd3XS53bjcjlx2vqQrQCZk5lhbwECEugjIQS9BYvKixiWNxjLnLwMuwCS
+      Uw+fdU0AYE5xPj/hyODGMjKjzYhMhMk2gMxX6XzhYXp7e9Dp9LS3t2E2WzCMQnSiYRdAb1c7
+      AUlJJOjB65fIL8wf7iJkThN27tiBRqulva2NhYvOGxUBDLsR7PWHSE22EhFUxOpUyJ7pZYYi
+      EolABJKSkmhoqB+VOgx7C5CelkxLWycJlli8IQk5PJvMUMw/91wEQYEkSSiGCJhF9GwAAA+1
+      SURBVHgebYZdAAqVlsz0FAC+bNBkI1jmaCgU/bvsvty7OxpExQju7u4iJsaIEgk0BtkIljmC
+      ny45j107d6LT63A6nBSXlGAymUa8HsMugLDPRkt7H0kJAVweP8WF44a7CJnThL6+XtQaDX29
+      vVgsltNDAA53gDSrHqdfSXKcCX9IXgwnc3QSrVYMhhhMJhMxxqPHN4s2wy6ABGt//z/5sGOy
+      DSBzNMrLJ4x2FeSJMJmR5SeXLOInlyyiubmJuLh4uru6yM3LG7X6REUAjfU1mOKSEIN+eUeY
+      zBHU1NRQWbmXGIOBjIzMUa1LVAZfJUlCEAR5R5jMUfH7fcSaTKSmpdPY2DCqdYlKC5CemY1G
+      o6XF3i3vCJM5gvLyCYiiiEKhoLi4eFTrEhUBaDT9878Z2f19u8zEeOYUyWuCZPrfBTg0+TWa
+      k2AQBQH09XTi9QXQ6PSEgmFS0lNp7ulj4355S6RM/4hgTU01jY2NGAwG4uPjKSoavVZg2G2A
+      oCiRnmamuakHlUqJcPwkMmMMMdzf/YmNjaW2ZnR/GIe9BdCrVTQ2OyjIT8Zmcx0zQp/M2CQn
+      J4dgKERiQiI6nX5U6yJ7hZAZMeYU55OZGE/WQTtgODl5vEIAfr8fpRChz+4gwZoiT4TJANC5
+      5GHqamtpC/pQKBRotTri4uJGtU5RmAeQOLC3gohKi9/rRTYCZA6nsbGBxoZGqg9U090dfc9v
+      x2PYBeDq7cQQF0d15R56XV4keRpA5jB0Oh0qtQopIuH1eke7OsPfBTIlpGJKGHxMngeQ+ZLZ
+      c84Y7SoMYkwEyJAZXX57zSWMzzo5g5REQQARWpsb0egM9PT0kD+uWJ4IG+M4vD62b9uG2+Mm
+      OzuHttaWk6YlGH4BSG4iCgtWqwWf149GJQehkQFRDBMKhtBqNZxMIyPDLwCFCUWkEZdHg9ks
+      B6WT6ScvLx+ny4nL5SI7J2e0qzOAPBEmEzXMBj1lWWmMz0rHbIjujO9JNRFmt9mItVgIBgLo
+      dDp5ImyMMqcon1sXzmNvRQWehAR6e3soKiqOetijr8Owd9B7O1tRaLR4bF3UNXcOd/Yypxih
+      UIimpkbsdhvBYJBgMDjaVRrEsLcASqUSW28v4XAQZdCHT5SXw41lRDGMKTaW7u5ugsHgqHmA
+      G4phF4AlMYXYr7i6kyfCxiZlWWno9QbmzTtztKsyJFGxAU42lcsMD9+cO52r504f7WoMK8Mu
+      AFtvF16vH5PZgsPpIiU1XZ4IO02YU5yP3W5n7dpPmTPnDDZu2MAlSy4d7Wr9Vwz7T3UgJJGe
+      YaWqso70jHTUo7vlU2aYsVgsZGZmceDAARwOB9Ipvtpx2FsAg05NQ2MnEycV0tzYRFpG1nAX
+      ITOKSJJEYWERRqORCRMmnPLd3RGZCGvq6aO5py8qecuMHNHazTUc/KcTYSMiABmZaPOfCuDU
+      br9kZP5LZAHIjGlkAciMaWQByIxpZAHIjGlkAciMaWQByIxpZAHInJYIJ7jteEAAWo2aUDgU
+      rfrIyESNYCiE9iuTXlqNirB4/AhFAzPBAKIo4Q8EZY/OMqcUWrUKtfrIVQyhkEgwFD7m+zxI
+      ADIyYw3ZBpAZ08gCkBnTHNFx8vgCyJ0imVMJjVqJ5is2QL89GzquPTsoldsTQHUUY0JG5mQm
+      GBYREFEftv3Q4wt+/eXQ4VN8e5vM2ESlVBIIhQc+e0/w5QfZBpAZ48gCkBnTDCmAmrZWdjW1
+      4gsdfTYtEhHZ3378GE99ThfHn4+DPqcd98GyJDHMjvoGOt2+E0gJbo+bPt/QLvcaO9up7OgB
+      wOMPHHH+aMdkxgZDCuDxlato7u7kZ6+/T5/TRafdQTgicaCtDV9Y4rNtm/jH9gNIYoiqtk6k
+      CPQ6bDT2OSASobq1DWcgxO7aegJAW083PR4/Pr+PPrebum4bAC3dXXS5fazb8QWVfX4AHn7n
+      HRrtbh546z08Yn/aDpcXt9dDj9OJOyTS0NGBO9jf76usrWRlVQNNNid2t4ugFMHuchGSoKuj
+      nr9t2MOuqj1sbe3l3tfeosvlwef3UtXejdfv5RevvYXNF8DuctBid0X/qcucNAw55BMOh2hz
+      uDBoNTz/4QfEpo9D6+1CaU7m6fXbmZ6gwKxP5uF33yM1MYE1da3s2rubMydOoNMY4Z1aGwtL
+      CthWXYvOpODj/T14bB3MK8phc1cAR2cz37lgPuuq6thY38YleV/GEghhE7UsmTyeSyaV4bR3
+      sryims9qmrliXDy7PHommCNUe5XYnDt44PLzAdjd3MKuiq3MKsojbEynav8ufn7phVjMicSy
+      m1afmrk6AbvXR5vTQ31TNV8cqGb6pDNw+Hy0dLby7PqdxKnC3HDhpeQaT8yIkjm1GbIFiDGa
+      uWrmDH532fmAhivPmEKP08fCieNRigFyrYkUpaXQZnOgVBvIjbdw45nT2Vm9D118NtNTzXxU
+      UQVAt8PBpIIiiuIN9PjDTMkvoCA+hsqWFiR1DDHKw5fuqRCDbhyBEC9/+ilbm1oJCDpM6v6q
+      Lp46FZ/XRSQiUJiaNJBqQk4ek1ItZOWUsHnLahKTslEAfS4HC6bN5rKiJF7f20x6nIWJSUa2
+      NPeSa43HaDSTZrGQrhewh0Syk1NQR+TRsLGCcunSpUu//OAPhlGp+sdSBUGgND11YFlpZpKV
+      8jQr/964hflTppFhNmIymjgjN5XdrV2UZ2dS09qK0ZxIWbKZnY2tTCssJC/BzOzSMrZX7sJo
+      zeasnGRMRhOJBi0ZCYnUdXZTmplBaWoSiZZ4YjUqylMTeWXjFtLTc5mYYqGqvZPizEzGpyWT
+      aIlncnYGNa0tpCQmMy6p309NTVsrkiGBhYVZ7Kg+wBVnnkmsWkGMTs/6il3s7PFy7czJJGok
+      qp0h9FIAgzGO4rRUYiI+IrFpZOtEXJKK6bmZaBQnTxgfmeMjSdLAZFgoLCKcoMOuQYvh7C4f
+      Ou3JE7zgP2FLVQWtQQ1LJhSOdlVkRpBwOIzR0O8XyOsLolCemE/O004AMmOT/1QA8jyAzJhm
+      RBb+7O/u46H120aiKJlTmGcvXTjiZUZFAH6PkxAalIKEwWDAFQyxtfX4k2YyMju2b8cUa8Lv
+      D2A2m8nMzIxqeVERQK/NQQQBtUqJwWCIRhEypylhMUxHezum2Fj0Ol3Uy4uKDSCJYcJiBL/X
+      hcPtjUYRMqcpVquV7Owcerq7EU9gU/t/S1RagMzs3EGfTT4/09KThrhaRuYQOTn9705m1sgE
+      VpF3v8iMOhcX53FxSfSjiAacrTjqVhLy9mGwFmPOXRAdAXR3d2GJ0dNpd5KUnCYbwTLHZFp6
+      Mu3tbTQ2NpKTk4PT6aSwsGhYy7DXfEjjp/9LKNC/wlgQBGISnh1+AUTCXtqb2xGSE/FJfpyO
+      E1vSLDO2kSQJj9uNWqUmHA4fP8HXIOBspbfydeILLyS57FIEpQpvTw2+vrrhN4IdDjfWdCte
+      bwCz0YxaXlQpcwJYLHEkJCaCAF6vl+F0V+WoW4mzYy9KlYbYtEmYksdjSMjH21cXhUjxCUlY
+      AJIPHTP5ZSNYZmjSTDHExMQwadJkABISEoc1/5C3Dynsp2vfMrLn3oVSbcBnq6evbo1sBMuM
+      DiNl+AIYEosBCAfcNK7/MznzfkzDZw8jCEJ0BOB22nD7w8QaY+SZYJmjMi09mfa2NppbmjEa
+      jfj9fqZMmRqVssx5C4hJeA5Pby2SGEAMehAU/a9+VCbCnE4ngiDgcjqikb3MaYLb48Fus+H3
+      +WlrbY1aOQqVlrxvPEFc9lzsdaupeO0akAJkzLojOi2AzmAkPj6BxroDONzm4yeQGZNYLBbi
+      4xNISUkhxhgT1bI0xmTyvvE4IU83Yb8DrTkDhUoXHQHExycAkJ3XvylFngmW+SppphisVitW
+      q3VEy1XHWFHHHCpT3g8gM6YZ/hYg5KWpw4Y1OYHuti6sqamyESxzBCNpBB+L4W8BAg40cWn0
+      dtbj8YQRTjRYk8yYY6SM4GMx/C2AUkNPcwNpSQk47X2IouxiRObojKQRPBTDLwB9AuML+43g
+      eEu/4WvSqGUjWGYQo2UEfxXZCJYZU4TCIk63b2Ct0fC3ABGJjvY2YowmbHYX6ZkZshEscwQj
+      bQS7PD6WPvY6b3y0CbfXT25GEj+5+eLhbwFs7a0Yk9NxOl1kZsTR3tY73EXInCaMlBEsihLf
+      +tGjvPDmKopzUvjTPdfh9fr57tJnhl8ApjgznU2NKJUKWpo7MVlih7sImdOEw43gcYXR8+S3
+      4rMdbNpeBYJA2bhMLjh7Ck5P/z6VYe8CqfSx5OcOfulNXtkIlhnMSBrBW/bUIkkS4wsy+dey
+      Dby8bD0WkwGjXjsyy6FlG0DmcHZ+79oRLc9o0DG5JIcPn7+XHz3wD15bsYnnHvwOaqUyOgLo
+      aq7DkJSJo6MRpTH5+Alkxhzr161Do9HgcjlJTU2jtKwsamVdeM4UHv/nCu595FW27a0jLIo8
+      8crK6O0H6HHY0YbVaJRq0hJMtLTKvoFkBhMMBYgQIRwOEzluNN//jpL8DH5888X8319eIxKJ
+      IAgCH67bRVKiJQoCkIJk5pQihRy0ddhweeRN8TJHkp9fgF5voLe3h8zM6PsAuvO685k5cRyv
+      fbCRXruLsnGZ3HjZ2SPjHr3N6ea9qrphz1fm1OT2GROGPc//1D36iBjBbS4PT27eMxJFyZwC
+      REMA/ylREUBjXS0ZuenYuzwo9NF3cCpz6jGSRvCxGP61QJEwjr4OWjp6qNxXj9k0Oqv8ZE5u
+      gqEAgWBgRIzgYzHsLUDY76Ng0hzC3l4SJhfjcLqHuwiZ04CRNoKHIgozwab+TGMPOTdKE+D2
+      GeXDXZTMKUx2dg4ASUmju0JANoJlRozbZ5SfVAYwREkA3R1tCCo13d3dZGbnRaMImVOUmprq
+      AS/QFXv2cMmSS0es7FBPE54tywg7e9Bljccw9RvREUAgJJGRYsXr8WE06MAmO8iS6UcMiygU
+      CkwmE/n5BSNWrmfzu3Q+90PCooghbzJ9K55En/FYdHaE6XUqevrsmM2yUyyZweTk5JCYaMVg
+      iKGktHREygx1N9Hx3A8JBwNoU/JIv/khIpKIt7U6Oi1AgjVl0Oc0U4xsBMswLT0ZrU5HefnI
+      vgueLcsQgwEAJJ8byeMAQUBANoJlRpDbZ/SLYKQJu3oG/hY9doJ9bSD0d36i0AWSaGlsxOML
+      UFdXO/zZy5zS1NRUs2rVJ9TW1vDuO2+PSJm6rEOzzFLAS9e7j/Klt6ooOMaygd6KFg+dbZ3Y
+      fdEPdSlz6jAaRrBh2kXo08cRAVTmJBIX39q/LJpoCEAbjxDootspMmvuLJQheS+AzCFGwwhW
+      qLWk/vhVzBPOIeLqpv3Zu1AbTFgv+yn/H27wpLh6HtJ8AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='KPI - Avg Patient Rating' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='KPI - Avg Recommendation Rate' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAHMUlEQVR4nO3Ye2yV5QHH8d85h/accqAFuZabUKSgAwZEZkGYUpgawE0Xl9U/BiPIshkG
+      QaczI2w4Y9gtWyYGs2VThyKZLEEWRDfl5hwXBSKXgYzq7FSQFqTtufX+7A9YY0MX/1k4Jr/v
+      Jzl/9D1PmvdJnu953+eJhBCCAFPRfN8AkE8EAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsE
+      AGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsE
+      AGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsE
+      AGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsE
+      AGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsE
+      AGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGsEAGs98n0DyK8X9r+lmtrz3X4Xi8W0qHKakom4
+      Qgh6s7pG63ft06nTZzWsf199c9Y0zbj2GkUiEUlSa3u71u/cp93/+KfGDhmkpXNnqSRZ1Pn/
+      2trb9fi2XZo+brS+MGbklZjepyIAc5v2HNSOoycvu55raVUyXqiqGdcrmYhr055DWvrbjSq9
+      qkQTrx6qvSff1Zb9h7V2SZXunjlVIQT9csur+v2rr6tq5lRtPXhUR2o+1IYVi9UjdvFFY+uB
+      o1q/a58Wzpp2paf5vwVYq89kQ11Dqsvn8L/eD4MXPRAWPvZU6OjoCPWZbCi/d1W4Y826kMo1
+      hRBCuJDOhDk/+lUY/e2V4VxjKqRzTaH83lXhmV37QgghHHnvgzBg4f3hWM2HIYQQ0k3NoeLB
+      n4RtB4/mba7dYQ9grqRnkfoX9+r89Oud1Ob9b6mlrU3fnVupSCSi4++f0Uf1jVo850b1SsQl
+      SX2SPfX9O29VXWNae95+V+dSaZ1PZTR+xBBJUtmg/krG4zp1plaS9PSOPfr8qGG6ddJ1eZtr
+      dwgAXZxPZbR+5z7NnjBOk8uGS5Ja2tokSbFo1+UyZfQIFRcl1JDNKV5QoB6xqLLNLZKk5tY2
+      tbS1qXdRQrX1jdr4tze1+uvzFY1+tpbcZ+tukHd/2LlXFzIZLZ9fqeilze2Y0oFKxgv19I69
+      yjQ3S5JCCGpv71DPeKGyzS0aUNxL40cM0XOvvaGGbE5/2ntIRYUFmjxquH794g4tm1epsw0p
+      fWXNOk25/1E98vyLam5tzedUJbEJxid8cO6C1r28W/Ovn6iKsWWd10v7lmjNN+7UQ89sVsWD
+      P9XksuGqbUjpnY/qdK4xrVg0qlg0qrVLqrTquT9r5g9+rgElvfXk0gU68E6Nci2tuqF8pG77
+      8WNacPM03T2zn554ebda29v1cNXtnadI+UAAkHTxF/2Jv+xWYzan791xS5fXnUgkogU3V2j6
+      uNHadvCY6jNZzZ44TpNGDtO8Rx9XUWGBJOnaYaXa9MC31JhrUq9EXBfSWd31s99o43336K+H
+      jysWjeq+L89WvKBATS2t+sWWV7TyrrmKF+RvGRIAJElnG1J6dvcbumXSdZpwaSP7SZFIRGNK
+      B2r5/MrOay8dOqZ0rlmD+hR3GVfSs0gdIejh57fqqxWTNbhvsT5OZdQrkVCPWEySdFXvpFK5
+      ZrW2t+c1APYAUAhBT23/u9K5Ji2bV9ntK0ltQ0odHaHL349s2qaywQNUUT7qsvHbD5/QgVM1
+      WjznRkUiEV09sJ/qGhqVbrq4h6g+U6fSvsVK5HHxSzwBIOlCOqsnt+/RTePLNfWakd2OWbnh
+      BVWfqdPEkUMVQtArh0+oPpPThhWLlbx0NPpf9ZmsHnp2s374tXmd382eME7JRFzLf/dH3VA+
+      Sute2qUVt8/pfCLkS2z16tWr83oHyLuj/z6tdFOzls2r1NB+fbodk4zHdfL0WR2ortF7tR9r
+      StkIrb2nStPGll32xHjt+CklCgq05EszOo89E4UF+uLnxmj7kbf1+olqLaqcru/cdtNlR6tX
+      WiSEED59GHBRx6XlEs3jyc3/EwHAGptgWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWPsPixdzNaSRFDIAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='KPI - Completed Surveys' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Pain &amp; Home Safety by State' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Professional Care by State' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Recommendation Rate by State' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='184' name='State Performance' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

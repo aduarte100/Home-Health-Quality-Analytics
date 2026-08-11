@@ -1,0 +1,1750 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0708.1337                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='cfd3ea464d4eab06ff6ef3cb664029173fa791cb42bfe648a9b54f341abd2ca2' _.fcp.WorkbookFingerprinting.true...creator-author-id='cfd3ea464d4eab06ff6ef3cb664029173fa791cb42bfe648a9b54f341abd2ca2' _.fcp.WorkbookFingerprinting.true...creator-license-type='free' _.fcp.WorkbookFingerprinting.true...creator-machine-id='209e3c876aca3f98d99d6393c983c2ec5062d9713ede7dbfe210bb45434aa9ae' _.fcp.WorkbookFingerprinting.true...license-type='free' _.fcp.WorkbookFingerprinting.true...machine-id='209e3c876aca3f98d99d6393c983c2ec5062d9713ede7dbfe210bb45434aa9ae' original-version='18.1' source-build='2026.2.1 (20262.26.0708.1337)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.DashboardRoundedCorners.true...DashboardRoundedCorners />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' inline='true' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Home Health Care Patient Survey State Data' name='excel-direct.1rldlt60rrffct181qyf006zt7vn'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/angel/OneDrive/Documents/RESUME/PROJECTS/GitHub Projects/Data Analytics/Home health/data/Home Health Care Patient Survey State Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1rldlt60rrffct181qyf006zt7vn' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:H11:no:A1:H11:0' header='yes' outcome='6'>
+            <column datatype='string' name='State Abbreviation' ordinal='0' />
+            <column datatype='integer' name='HHT Health Care Given in Professional Way' ordinal='1' />
+            <column datatype='integer' name='HHT Health Care Communicated Well With Patients' ordinal='2' />
+            <column datatype='integer' name='HHT Health Care Discussed Pain Medicines and Home Safety' ordinal='3' />
+            <column datatype='integer' name='Patients Who Gave 9 or 10 HHA Rating' ordinal='4' />
+            <column datatype='integer' name='Patients Reported Yes To Recommend HHA To Friends And Family' ordinal='5' />
+            <column datatype='integer' name='Number Of Completed Surveys' ordinal='6' />
+            <column datatype='integer' name='Response Rate' ordinal='7' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H11:no:A1:H11:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State Abbreviation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State Abbreviation]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State Abbreviation</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HHT Health Care Given in Professional Way</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HHT Health Care Given in Professional Way]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>HHT Health Care Given in Professional Way</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HHT Health Care Communicated Well With Patients</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HHT Health Care Communicated Well With Patients]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>HHT Health Care Communicated Well With Patients</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HHT Health Care Discussed Pain Medicines and Home Safety</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HHT Health Care Discussed Pain Medicines and Home Safety]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>HHT Health Care Discussed Pain Medicines and Home Safety</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patients Who Gave 9 or 10 HHA Rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Patients Who Gave 9 or 10 HHA Rating]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Patients Who Gave 9 or 10 HHA Rating</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patients Reported Yes To Recommend HHA To Friends And Family</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Patients Reported Yes To Recommend HHA To Friends And Family]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Patients Reported Yes To Recommend HHA To Friends And Family</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number Of Completed Surveys</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number Of Completed Surveys]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Number Of Completed Surveys</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Response Rate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Response Rate]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Response Rate</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE]' role='measure' type='quantitative' />
+      <group caption='Action (State Abbreviation)' hidden='true' name='[Action (State Abbreviation)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[State Abbreviation]' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_290AEBCEB6B140878BA2051EDCE6CAEE'>
+            <properties context=''>
+              <relation connection='excel-direct.1rldlt60rrffct181qyf006zt7vn' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:H11:no:A1:H11:0' header='yes' outcome='6'>
+                  <column datatype='string' name='State Abbreviation' ordinal='0' />
+                  <column datatype='integer' name='HHT Health Care Given in Professional Way' ordinal='1' />
+                  <column datatype='integer' name='HHT Health Care Communicated Well With Patients' ordinal='2' />
+                  <column datatype='integer' name='HHT Health Care Discussed Pain Medicines and Home Safety' ordinal='3' />
+                  <column datatype='integer' name='Patients Who Gave 9 or 10 HHA Rating' ordinal='4' />
+                  <column datatype='integer' name='Patients Reported Yes To Recommend HHA To Friends And Family' ordinal='5' />
+                  <column datatype='integer' name='Number Of Completed Surveys' ordinal='6' />
+                  <column datatype='integer' name='Response Rate' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_5DD7FE6B535E48A992E0D9DD5705EB81]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Executive Dashboard' type='sheet' worksheet='Professional Care by State' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Executive Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_CBD1D782ED41415F8A3820ACB0A8E402]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Executive Dashboard' type='sheet' worksheet='State Performance' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Executive Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Communication by State'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Communication Quality by State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[HHT Health Care Communicated Well With Patients]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[HHT Health Care Communicated Well With Patients]' derivation='Avg' name='[avg:HHT Health Care Communicated Well With Patients:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State Abbreviation]' derivation='None' name='[none:State Abbreviation:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Communicated Well With Patients:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Communicated Well With Patients:qk]' scope='cols' value='Communication Quality' />
+            <format attr='display' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Communicated Well With Patients:qk]' scope='cols' value='false' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Communicated Well With Patients:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.6921546459197998' />
+                <format attr='mark-color' value='#0e5a6f' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]</rows>
+        <cols>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Communicated Well With Patients:qk]</cols>
+      </table>
+      <simple-id uuid='{7F63DC5D-C0CB-48A4-9BDF-6863246C6334}' />
+    </worksheet>
+    <worksheet name='KPI - Avg Patient Rating'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#0a2e5c' fontname='Benton Sans Book' fontsize='12'>Average Patient Rating</run>
+            <run fontalignment='1' fontcolor='#0a2e5c' fontname='Benton Sans Book' fontsize='12'>Æ </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[Patients Who Gave 9 or 10 HHA Rating]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Patients Who Gave 9 or 10 HHA Rating]' derivation='Avg' name='[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]'>
+            <groupfilter function='level-members' level='[State Abbreviation]' user:ui-action-filter='[Action1_5DD7FE6B535E48A992E0D9DD5705EB81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#0b3567' />
+            <format attr='text-align' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' value='center' />
+            <format attr='vertical-align' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' value='center' />
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' value='n#,##0&quot;%&quot;;-#,##0&quot;%&quot;' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' value='#e6e6e6' />
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' value='auto' />
+            <format attr='vertical-align' value='auto' />
+            <format attr='text-align' scope='cols' value='center' />
+            <format attr='text-align' scope='rows' value='center' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' data-class='total' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='48'>&lt;</run>
+                <run bold='true' fontsize='48'>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]</run>
+                <run bold='true' fontsize='48'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='3.7016575336456299' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4A5AF37C-F342-4814-9524-3229F9710598}' />
+    </worksheet>
+    <worksheet name='KPI - Avg Recommendation Rate'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#0e5a6f' fontname='Benton Sans Book' fontsize='12'>Ave. Recommendation Rate</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[Patients Reported Yes To Recommend HHA To Friends And Family]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Patients Reported Yes To Recommend HHA To Friends And Family]' derivation='Avg' name='[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]'>
+            <groupfilter function='level-members' level='[State Abbreviation]' user:ui-action-filter='[Action1_5DD7FE6B535E48A992E0D9DD5705EB81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#0e5a6f' />
+            <format attr='text-align' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' value='center' />
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' value='n#,##0&quot;%&quot;;-#,##0&quot;%&quot;' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' value='#ffffff' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' scope='cols' value='#d4d4d4' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='2' />
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='48'>&lt;</run>
+                <run bold='true' fontsize='48'>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]</run>
+                <run bold='true' fontsize='48'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8FF6F254-77F8-486E-9FE9-67BE0B24500A}' />
+    </worksheet>
+    <worksheet name='KPI - Completed Surveys'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#4b2d62' fontname='Benton Sans Book' fontsize='12'>Completed Surveys</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[Number Of Completed Surveys]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Number Of Completed Surveys]' derivation='Sum' name='[sum:Number Of Completed Surveys:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]'>
+            <groupfilter function='level-members' level='[State Abbreviation]' user:ui-action-filter='[Action1_5DD7FE6B535E48A992E0D9DD5705EB81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='78' />
+            <format attr='color' value='#4b2d62' />
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[sum:Number Of Completed Surveys:qk]' value='n#,##0;-#,##0' />
+            <format attr='text-align' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[sum:Number Of Completed Surveys:qk]' value='center' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[sum:Number Of Completed Surveys:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='48'>&lt;</run>
+                <run bold='true' fontsize='48'>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[sum:Number Of Completed Surveys:qk]</run>
+                <run bold='true' fontsize='48'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{12F35CA7-4F9D-4B8A-97E5-2CA5271A186C}' />
+    </worksheet>
+    <worksheet name='Pain &amp; Home Safety by State'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Pain &amp; Home Safety</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[HHT Health Care Discussed Pain Medicines and Home Safety]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[HHT Health Care Discussed Pain Medicines and Home Safety]' derivation='Avg' name='[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State Abbreviation]' derivation='None' name='[none:State Abbreviation:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]'>
+            <groupfilter function='level-members' level='[none:State Abbreviation:nk]' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]' scope='cols' value='Pain &amp; Home Safety Discussion ' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+            <format attr='display' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]' value='' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>State:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Pain &amp; Home Safety Dicussion rate:	</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]>%]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.7471270561218262' />
+                <format attr='mark-color' value='#0e5a6f' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]</rows>
+        <cols>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Discussed Pain Medicines and Home Safety:qk]</cols>
+      </table>
+      <simple-id uuid='{EBEAEED8-EA99-4FD1-9B52-41920660617A}' />
+    </worksheet>
+    <worksheet name='Professional Care by State'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#1f6f7a' fontname='Benton Sans Book'>Professional Care by State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[HHT Health Care Given in Professional Way]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[HHT Health Care Given in Professional Way]' derivation='Avg' name='[avg:HHT Health Care Given in Professional Way:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State Abbreviation]' derivation='None' name='[none:State Abbreviation:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]'>
+            <groupfilter function='level-members' level='[State Abbreviation]' user:ui-action-filter='[Action2_CBD1D782ED41415F8A3820ACB0A8E402]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Given in Professional Way:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Given in Professional Way:qk]' scope='cols' value='Professional Care' />
+            <format attr='display' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Given in Professional Way:qk]' scope='cols' value='false' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Given in Professional Way:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Given in Professional Way:qk]' value='#d9dee7' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f7f9fc' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>State:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'> Professional Care Rate:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Given in Professional Way:qk]>%]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.7691160440444946' />
+                <format attr='mark-color' value='#278da1' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]</rows>
+        <cols>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:HHT Health Care Given in Professional Way:qk]</cols>
+      </table>
+      <simple-id uuid='{43D48E5A-9A29-4DE8-AFA0-E7AE043B2E49}' />
+    </worksheet>
+    <worksheet name='Recommendation Rate by State'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#3f6f2a' fontname='Benton Sans Book'>Recommendation Rate by State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[Patients Reported Yes To Recommend HHA To Friends And Family]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Patients Reported Yes To Recommend HHA To Friends And Family]' derivation='Avg' name='[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State Abbreviation]' derivation='None' name='[none:State Abbreviation:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]'>
+            <groupfilter function='level-members' level='[State Abbreviation]' user:ui-action-filter='[Action1_5DD7FE6B535E48A992E0D9DD5705EB81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' scope='cols' value='Recommendation Rate' />
+            <format attr='display' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' scope='cols' value='false' />
+            <encoding attr='space' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' field-type='quantitative' max='92.541677442118171' min='-3.7527833772649482' range-type='fixed' scope='cols' type='space' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f7f9fc' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>State:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Recommendation Rate:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]>%]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.6921546459197998' />
+                <format attr='mark-color' value='#5b8f3d' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]</rows>
+        <cols>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Reported Yes To Recommend HHA To Friends And Family:qk]</cols>
+      </table>
+      <simple-id uuid='{980C35D5-C88A-4473-8B57-FD59A6AED361}' />
+    </worksheet>
+    <worksheet name='State Performance'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#0e5a6f' fontname='Benton Sans Book'>Patient Satisfaction by State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Home Health Care Patient Survey State Data)' name='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lk7qjr0rbz63u11rnjzs0vvw4cs'>
+            <column datatype='integer' name='[Patients Who Gave 9 or 10 HHA Rating]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Abbreviation]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Patients Who Gave 9 or 10 HHA Rating]' derivation='Avg' name='[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State Abbreviation]' derivation='None' name='[none:State Abbreviation:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]'>
+            <groupfilter function='level-members' level='[State Abbreviation]' user:ui-action-filter='[Action1_5DD7FE6B535E48A992E0D9DD5705EB81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' included-values='in-range' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]</column>
+            <column>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[Action (State Abbreviation)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' scope='cols' value='Patient Satisfaction' />
+            <format attr='display' class='0' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' scope='cols' value='false' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]' value='18' />
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' value='#d9dee7' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f7f9fc' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>State:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Patient Satisfaction:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]>%]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='1.7361326217651367' />
+                <format attr='mark-color' value='#0e5a6f' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[none:State Abbreviation:nk]</rows>
+        <cols>[federated.1lk7qjr0rbz63u11rnjzs0vvw4cs].[avg:Patients Who Gave 9 or 10 HHA Rating:qk]</cols>
+      </table>
+      <simple-id uuid='{1C7B4A04-34D5-4562-869C-D39A7CE97137}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Executive Dashboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Benton Sans Book' fontsize='20'>Home Health Quality Performance Analytics</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#ffffff' />
+        </style-rule>
+        <style-rule element='dash-title'>
+          <format attr='background-color' value='#0b3567' />
+        </style-rule>
+      </style>
+      <size maxheight='900' maxwidth='1400' minheight='900' minwidth='1400' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98222' id='35' param='vert' type-v2='layout-flow' w='98858' x='571' y='889'>
+            <zone h='4556' id='36' type-v2='title' w='98858' x='571' y='889'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='4' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='7111' id='33' param='vert' type-v2='layout-flow' w='98858' x='571' y='5445'>
+              <zone h='7111' id='9' param='horz' type-v2='layout-flow' w='98858' x='571' y='5445'>
+                <zone h='7111' id='5' param='vert' type-v2='layout-flow' w='98858' x='571' y='5445'>
+                  <zone fixed-size='24' forceUpdate='true' h='3555' id='10' is-fixed='true' type-v2='text' w='98858' x='571' y='5445'>
+                    <formatted-text>
+                      <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Medicare Home Health Patient Survey | Executive Operations Dashboard</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                      <format attr='padding-top' value='6' />
+                    </zone-style>
+                  </zone>
+                  <zone h='3556' id='11' param='vert' type-v2='layout-flow' w='98858' x='571' y='9000'>
+                    <zone h='3556' id='12' param='horz' type-v2='layout-flow' w='98858' x='571' y='9000'>
+                      <zone h='3556' id='43' is-centered='0' param='C:/Users/angel/Downloads/icons8-home-care-24.png' type-v2='bitmap' w='98858' x='571' y='9000'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='16111' id='15' param='horz' type-v2='layout-flow' w='99500' x='286' y='9222'>
+          <zone h='16111' id='30' param='horz' type-v2='layout-flow' w='99500' x='286' y='9222' />
+        </zone>
+        <zone h='32333' id='16' param='horz' type-v2='layout-flow' w='51000' x='357' y='26778'>
+          <zone h='27889' id='23' name='State Performance' w='48572' x='1571' y='29333'>
+            <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='0' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#d9dee3' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+            <format attr='margin-top' value='12' />
+            <format attr='margin-right' value='6' />
+            <format attr='margin-bottom' value='6' />
+            <format attr='margin-left' value='6' />
+            <format attr='padding' value='10' />
+            <format attr='background-color' value='#f7f9fc' />
+          </zone-style>
+        </zone>
+        <zone h='32333' id='19' param='horz' type-v2='layout-flow' w='51000' x='429' y='59556'>
+          <zone h='29222' id='25' name='Professional Care by State' w='48572' x='1643' y='61445'>
+            <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='0' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#d9dee7' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+            <format attr='margin-top' value='6' />
+            <format attr='margin-right' value='6' />
+            <format attr='margin-left' value='6' />
+            <format attr='padding' value='10' />
+            <format attr='background-color' value='#f7f9fc' />
+          </zone-style>
+        </zone>
+        <zone h='31111' id='21' param='horz' type-v2='layout-flow' w='47571' x='51643' y='28000'>
+          <zone h='30222' id='24' name='Recommendation Rate by State' w='46571' x='52143' y='28111'>
+            <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='0' />
+              <format attr='padding' value='10' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#d9dee7' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='10' />
+            <format attr='margin-top' value='0' />
+            <format attr='margin-right' value='6' />
+            <format attr='margin-bottom' value='6' />
+            <format attr='margin-left' value='6' />
+            <format attr='background-color' value='#f7f9fc' />
+          </zone-style>
+        </zone>
+        <zone h='16667' id='31' name='KPI - Avg Recommendation Rate' w='33286' x='286' y='9222'>
+          <layout-cache fixed-size-h='122' fixed-size-w='77' type-h='fixed' type-w='fixed' />
+          <zone-style>
+            <format attr='border-color' value='#d4d4d4' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+            <format attr='margin-top' value='6' />
+            <format attr='margin-right' value='8' />
+            <format attr='margin-bottom' value='6' />
+            <format attr='margin-left' value='8' />
+            <format attr='padding' value='4' />
+            <format attr='background-color' value='#f7f9fb' />
+          </zone-style>
+        </zone>
+        <zone h='16667' id='27' name='KPI - Avg Patient Rating' w='32857' x='33929' y='9222'>
+          <layout-cache fixed-size-h='229' type-h='fixed' type-w='fixed' />
+          <zone-style>
+            <format attr='border-color' value='#d4d4d4' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+            <format attr='margin' value='8' />
+            <format attr='margin-top' value='6' />
+            <format attr='margin-bottom' value='6' />
+            <format attr='padding' value='4' />
+            <format attr='background-color' value='#f7f9fb' />
+          </zone-style>
+        </zone>
+        <zone fixed-size='204' h='16667' id='29' is-fixed='true' name='KPI - Completed Surveys' w='32071' x='67143' y='9222'>
+          <layout-cache type-h='fixed' type-w='fixed' />
+          <zone-style>
+            <format attr='border-color' value='#d4d4d4' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+            <format attr='margin-top' value='6' />
+            <format attr='margin-right' value='8' />
+            <format attr='margin-bottom' value='6' />
+            <format attr='margin-left' value='8' />
+            <format attr='padding' value='4' />
+            <format attr='background-color' value='#f7f9fb' />
+          </zone-style>
+        </zone>
+        <zone h='34444' id='37' param='vert' type-v2='layout-flow' w='47786' x='51500' y='60222'>
+          <zone forceUpdate='true' h='4778' id='38' type-v2='text' w='44500' x='53143' y='61666'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='22'>Executive Insights</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='6694' id='39' type-v2='text' w='44500' x='53143' y='66444'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Top Performing States</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Alabama and Arkansas consistently demonstrate the strongest patient satisfaction and recommendation scores across the evaluated states.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+              <format attr='padding' value='0' />
+              <format attr='padding-left' value='40' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='6694' id='40' type-v2='text' w='44500' x='53143' y='73138'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Key Driver</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Professional Care received the highest average ratings, suggesting that patients place significant value on courteous, professional interactions with providers.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+              <format attr='padding-left' value='40' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='6694' id='41' type-v2='text' w='44500' x='53143' y='79832'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Improvement Opportunity</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Recommendation rates remain lower than overall patient satisfaction, indicating opportunities to strengthen patient experience beyond clinical care.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+              <format attr='padding-left' value='40' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='6696' id='42' type-v2='text' w='44500' x='53143' y='86526'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Business Impact</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Improving communication quality and patient engagement could increase patient satisfaction while strengthening referral potential for home health agencies.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+              <format attr='padding-left' value='40' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#d9dee7' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+            <format attr='margin-top' value='0' />
+            <format attr='margin-right' value='6' />
+            <format attr='margin-left' value='6' />
+            <format attr='padding-top' value='12' />
+            <format attr='padding-right' value='16' />
+            <format attr='padding-bottom' value='12' />
+            <format attr='padding-left' value='16' />
+            <format attr='background-color' value='#f7f9fc' />
+          </zone-style>
+        </zone>
+        <zone h='5556' id='54' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-thumbs-up-48.png' type-v2='bitmap' w='3571' x='2429' y='17000' />
+        <zone h='5556' id='57' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-rating-circled-48.png' type-v2='bitmap' w='3571' x='35786' y='17000' />
+        <zone h='5556' id='58' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-work-authorisation-48 (1).png' type-v2='bitmap' w='3571' x='69071' y='17000' />
+        <zone h='3556' id='63' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-trophy-64 (1).png' type-v2='bitmap' w='2286' x='52929' y='68111' />
+        <zone h='3556' id='64' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-three-stars-64.png' type-v2='bitmap' w='2286' x='52929' y='75000' />
+        <zone h='3556' id='65' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-box-important-64 (1).png' type-v2='bitmap' w='2286' x='52929' y='81889' />
+        <zone h='3556' id='66' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-positive-dynamic-64.png' type-v2='bitmap' w='2286' x='52929' y='88778' />
+        <zone h='3000' id='83' is-centered='0' is-scaled='1' param='C:/Users/angel/Downloads/icons8-out-patient-department-50.png' type-v2='bitmap' w='1929' x='25786' y='1667' />
+        <zone forceUpdate='true' h='3333' id='94' type-v2='text' w='99714' x='143' y='98222'>
+          <formatted-text>
+            <run bold='true' fontcolor='#555555' fontname='Benton Sans Book'>Source:</run>
+            <run fontcolor='#555555' fontname='Benton Sans Book'> Medicare Home Health Patient Survey State Data | Analysis Date: May 12, 2025</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Benton Sans Book' fontsize='20'>Home Health Quality Performance Analytics</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='2150' minheight='2150' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='120' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='119' param='vert' type-v2='layout-flow' w='98858' x='571' y='889'>
+                <zone h='4556' id='36' type-v2='title' w='98858' x='571' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='4' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='27' h='3000' id='83' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-out-patient-department-50.png' type-v2='bitmap' w='1929' x='25786' y='1667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='24' forceUpdate='true' h='3555' id='10' type-v2='text' w='98858' x='571' y='5445'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Medicare Home Health Patient Survey | Executive Operations Dashboard</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='24' h='3556' id='43' is-centered='0' is-fixed='true' param='C:/Users/angel/Downloads/icons8-home-care-24.png' type-v2='bitmap' w='98858' x='571' y='9000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='128' h='16667' id='31' is-fixed='true' name='KPI - Avg Recommendation Rate' w='33286' x='286' y='9222'>
+                  <layout-cache fixed-size-h='122' fixed-size-w='77' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#d4d4d4' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f7f9fb' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='128' h='16667' id='27' is-fixed='true' name='KPI - Avg Patient Rating' w='32857' x='33929' y='9222'>
+                  <layout-cache fixed-size-h='229' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#d4d4d4' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f7f9fb' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='128' h='16667' id='29' is-fixed='true' name='KPI - Completed Surveys' w='32071' x='67143' y='9222'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#d4d4d4' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='8' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f7f9fb' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='50' h='5556' id='54' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-thumbs-up-48.png' type-v2='bitmap' w='3571' x='2429' y='17000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='50' h='5556' id='57' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-rating-circled-48.png' type-v2='bitmap' w='3571' x='35786' y='17000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='50' h='5556' id='58' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-work-authorisation-48 (1).png' type-v2='bitmap' w='3571' x='69071' y='17000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='252' h='30222' id='24' is-fixed='true' name='Recommendation Rate by State' w='46571' x='52143' y='28111'>
+                  <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='251' h='27889' id='23' is-fixed='true' name='State Performance' w='48572' x='1571' y='29333'>
+                  <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='263' h='29222' id='25' is-fixed='true' name='Professional Care by State' w='48572' x='1643' y='61445'>
+                  <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4778' id='38' type-v2='text' w='44500' x='53143' y='61666'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='22'>Executive Insights</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='6694' id='39' type-v2='text' w='44500' x='53143' y='66444'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Top Performing States</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Alabama and Arkansas consistently demonstrate the strongest patient satisfaction and recommendation scores across the evaluated states.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='32' h='3556' id='63' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-trophy-64 (1).png' type-v2='bitmap' w='2286' x='52929' y='68111'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='6694' id='40' type-v2='text' w='44500' x='53143' y='73138'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Key Driver</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Professional Care received the highest average ratings, suggesting that patients place significant value on courteous, professional interactions with providers.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='32' h='3556' id='64' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-three-stars-64.png' type-v2='bitmap' w='2286' x='52929' y='75000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='6694' id='41' type-v2='text' w='44500' x='53143' y='79832'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Improvement Opportunity</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Recommendation rates remain lower than overall patient satisfaction, indicating opportunities to strengthen patient experience beyond clinical care.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='32' h='3556' id='65' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-box-important-64 (1).png' type-v2='bitmap' w='2286' x='52929' y='81889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='6696' id='42' type-v2='text' w='44500' x='53143' y='86526'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Business Impact</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Improving communication quality and patient engagement could increase patient satisfaction while strengthening referral potential for home health agencies.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='32' h='3556' id='66' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/angel/Downloads/icons8-positive-dynamic-64.png' type-v2='bitmap' w='2286' x='52929' y='88778'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3333' id='94' type-v2='text' w='99714' x='143' y='98222'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#555555' fontname='Benton Sans Book'>Source:</run>
+                    <run fontcolor='#555555' fontname='Benton Sans Book'> Medicare Home Health Patient Survey State Data | Analysis Date: May 12, 2025</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1ABBDA1A-CBA3-468E-85B3-C9420D919C54}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='30'>
+    <window class='dashboard' maximized='true' name='Executive Dashboard'>
+      <viewpoints>
+        <viewpoint name='KPI - Avg Patient Rating'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI - Avg Recommendation Rate'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI - Completed Surveys'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='4' />
+        </viewpoint>
+        <viewpoint name='Professional Care by State' />
+        <viewpoint name='Recommendation Rate by State' />
+        <viewpoint name='State Performance' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{DF28A9B7-8F55-4B51-8141-8198AFF31445}' />
+    </window>
+    <window class='worksheet' name='State Performance'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5CD811DD-B3DA-41BC-8D81-A9442F3E6BB3}' />
+    </window>
+    <window class='worksheet' name='Recommendation Rate by State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A0BA99C5-20DC-4BB9-BD96-7A258105722B}' />
+    </window>
+    <window class='worksheet' name='Professional Care by State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F2006470-35A4-4B28-83DE-DCBB22BB36CF}' />
+    </window>
+    <window class='worksheet' name='Communication by State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{09EF5C34-95B7-4CF2-ACD7-C7CA867E6449}' />
+    </window>
+    <window class='worksheet' name='Pain &amp; Home Safety by State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{28179AEB-ED3B-44B3-A6D2-DDC623FC7ED7}' />
+    </window>
+    <window class='worksheet' name='KPI - Avg Patient Rating'>
+      <cards>
+        <edge name='left'>
+          <strip size='240'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='48'>
+            <card type='columns' />
+          </strip>
+          <strip size='48'>
+            <card type='rows' />
+          </strip>
+          <strip size='46'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{7407ED90-2AFF-47C9-B026-64A68FA3163B}' />
+    </window>
+    <window class='worksheet' name='KPI - Avg Recommendation Rate'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{2EF884A8-4921-450B-941B-1CBDB13BACB7}' />
+    </window>
+    <window class='worksheet' name='KPI - Completed Surveys'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{8C02F859-7C5F-431C-9720-7D4D1267E187}' />
+    </window>
+  </windows>
+</workbook>
