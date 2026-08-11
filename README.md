@@ -88,3 +88,56 @@ Using observed 75th-percentile performance values as improvement benchmarks:
 The strongest modeled scenario occurred when **Communication and Professional Care were improved together**, while Communication produced the largest individual modeled improvement.
 
 > **Interpretation:** These results identify data-informed areas for further quality-improvement evaluation. Scenario estimates are model-based and should not be interpreted as guaranteed outcomes of operational interventions.
+---
+
+## Project Workflow
+
+The project follows an end-to-end healthcare analytics workflow designed to move from raw quality data to executive decision support.
+
+```text
+Medicare Home Health Survey Data
+              │
+              ▼
+     Data Quality Review
+              │
+              ▼
+ Exploratory Data Analysis
+              │
+              ▼
+   Relationship Analysis
+              │
+              ▼
+Exploratory Machine Learning
+              │
+              ▼
+     Sensitivity Testing
+              │
+              ▼
+ Operational Scenario Analysis
+              │
+              ▼
+ Executive Recommendations
+              │
+              ▼
+ Tableau Executive Dashboard
+```
+
+### Analytical Methodology
+
+**Data Quality Review**  
+Evaluated dataset structure, missing values, duplicate records, data types, and summary statistics before analysis.
+
+**Exploratory & Relationship Analysis**  
+Examined state-level quality performance and used correlation analysis to identify measures strongly associated with overall Patient Rating.
+
+**Exploratory Machine Learning**  
+Applied a Random Forest Regressor to evaluate the relative importance of operational features including Communication, Professional Care, Pain Medicines & Home Safety, Response Rate, and Completed Surveys.
+
+**Sensitivity Testing**  
+Used leave-one-state-out analysis to evaluate whether feature-importance rankings remained reasonably consistent when individual states were removed.
+
+**Operational Scenario Modeling**  
+Compared modeled Patient Rating under realistic improvement scenarios using observed 75th-percentile performance benchmarks for Communication and Professional Care.
+
+**Business Intelligence**  
+Developed an interactive Tableau Executive Dashboard to translate analytical findings into state-level performance monitoring and executive decision support.
