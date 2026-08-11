@@ -165,3 +165,36 @@ Developed an interactive Tableau Executive Dashboard to translate analytical fin
 - Leave-One-State-Out Sensitivity Testing
 - Operational Scenario Modeling
 - Executive Dashboard Development
+---
+
+## Repository Structure
+
+```text
+Home-Health-Quality-Analytics/
+│
+├── README.md
+├── .gitignore
+│
+├── data/
+│   └── Home Health Care Patient Survey State Data.xlsx
+│
+├── notebooks/
+│   └── Healthcare_Quality_Analytics_Portfolio.ipynb
+│
+├── dashboards/
+│   └── Home_Health_Quality_Executive_Dashboard.twb
+│
+├── images/
+│   └── executive_dashboard.png
+│
+└── documentation/
+    ├── Analysis_Inventory.docx
+    └── Project_Vision.docx
+```
+
+### Key Project Files
+
+- **Jupyter Notebook:** Complete analytical workflow, including data review, relationship analysis, exploratory machine learning, sensitivity testing, scenario modeling, and executive findings.
+- **Tableau Workbook:** Interactive executive dashboard for monitoring state-level healthcare quality performance.
+- **Dataset:** Medicare Home Health patient survey state data used throughout the analysis.
+- **Project Documentation:** Supporting analysis inventory and original project vision documenting the project's analytical foundation and development.
