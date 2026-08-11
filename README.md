@@ -149,25 +149,19 @@ The Tableau Executive Dashboard extends the analysis into an interactive decisio
 
 ```text
 Home-Health-Quality-Analytics/
-│
-├── README.md
-├── .gitignore
-│
-├── data/
-│   └── Home Health Care Patient Survey State Data.xlsx
-│
-├── notebooks/
-│   └── Healthcare_Quality_Analytics_Portfolio.ipynb
-│
-├── dashboards/
-│   └── Home_Health_Quality_Executive_Dashboard.twb
-│
-├── images/
-│   └── executive_dashboard.png
-│
-└── documentation/
-    ├── Analysis_Inventory.docx
-    └── Project_Vision.docx
+README.md
+.gitignore
+    data/
+        Home Health Care Patient Survey State Data.xlsx
+    notebooks/
+        Healthcare_Quality_Analytics_Portfolio.ipynb
+    dashboards/
+        Home_Health_Quality_Executive_Dashboard.twb
+    images/
+        executive_dashboard.png
+    documentation/
+        Analysis_Inventory.docx
+        Project_Vision.docx
 ```
 
 ---
