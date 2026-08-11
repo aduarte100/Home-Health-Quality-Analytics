@@ -198,3 +198,29 @@ Home-Health-Quality-Analytics/
 - **Tableau Workbook:** Interactive executive dashboard for monitoring state-level healthcare quality performance.
 - **Dataset:** Medicare Home Health patient survey state data used throughout the analysis.
 - **Project Documentation:** Supporting analysis inventory and original project vision documenting the project's analytical foundation and development.
+---
+
+## Business Impact
+
+The analysis identified **Communication and Professional Care** as the most consistent operational signals associated with patient satisfaction.
+
+For healthcare leaders, these findings provide data-informed areas for further quality-improvement evaluation, including patient communication, care-plan education, responsiveness, and professional care delivery.
+
+Because the analysis contains only **10 state-level observations**, the machine-learning and scenario results are exploratory and should not be interpreted as causal or production-ready predictions.
+
+---
+
+## About the Author
+
+### Angeline Duarte
+
+**Healthcare Operations & Technology | Systems Analysis | Data Analytics**
+
+This repository is part of my professional portfolio showcasing healthcare analytics, business intelligence, machine learning, and healthcare technology projects.
+
+- Portfolio: [Click Here](https://www.angelineduarte.com/)
+- LinkedIn: [Click Here](https://www.linkedin.com/in/angelineduarte/)
+
+---
+
+If you found this project interesting, feel free to explore the repository or connect with me on LinkedIn.
