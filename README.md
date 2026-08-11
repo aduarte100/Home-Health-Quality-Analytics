@@ -21,7 +21,7 @@ This project analyzes state-level Medicare Home Health quality data to identify 
 A management-ready summary of the analytical methodology, key findings,
 scenario analysis, business recommendations, and responsible interpretation.
 
-[View the Professional Analytics Report](reports/Home_Health_Quality_Analytics_Professional_Report_REVISED.pdf)
+[View the Professional Analytics Report](reports/Home_Health_Quality_Analytics_Professional_Report.pdf)
 
 ---
 
