@@ -12,60 +12,55 @@ This project analyzes state-level Medicare Home Health quality data to identify 
 
 ![Home Health Quality Executive Dashboard](images/executive_dashboard.png)
 
-**Interactive analytics developed in Tableau to monitor patient satisfaction, recommendation rates, professional care performance, and survey volume across states.**
+*Interactive Tableau dashboard for monitoring patient satisfaction, recommendation rates, professional care performance, and survey volume across states.*
+
 ---
 
 ## Project Overview
 
 Healthcare organizations continuously monitor patient experience and quality measures to identify performance gaps, improve care delivery, and support operational decision-making.
 
-This project analyzes Medicare Home Health patient survey data to evaluate state-level quality performance and identify operational factors associated with overall patient satisfaction.
+This project evaluates Medicare Home Health patient survey data to identify operational factors associated with overall patient satisfaction.
 
-The analysis combines:
+The project demonstrates an end-to-end healthcare analytics workflow including:
 
-- Healthcare Operations
+- Data Quality Assessment
 - Exploratory Data Analysis
 - Statistical Relationship Analysis
-- Machine Learning
+- Exploratory Machine Learning
 - Sensitivity Testing
-- Scenario Modeling
+- Operational Scenario Modeling
 - Tableau Business Intelligence
-- Executive Reporting
+- Executive Decision Support
 
-The goal is not simply to generate predictions, but to translate healthcare quality data into **actionable insights that healthcare leaders can use to prioritize improvement opportunities**.
+Rather than focusing solely on predictive modeling, this project emphasizes **translating healthcare quality data into actionable operational insights for healthcare leaders**.
 
 ---
 
-## Business Problem
+## Business Questions
 
-Patient satisfaction is influenced by multiple dimensions of the care experience, including communication, professional care delivery, safety discussions, and overall service quality.
+1. Which quality metrics are most strongly associated with overall patient satisfaction?
+2. Which operational areas should healthcare organizations prioritize to improve quality ratings?
+3. Can machine learning identify important operational features associated with healthcare performance?
+4. How can analytics support executive decision-making?
 
-Healthcare leaders need to understand:
-
-1. Which quality measures are most strongly associated with patient satisfaction?
-2. Which operational areas may represent the strongest opportunities for improvement?
-3. Can machine learning help identify important operational features associated with healthcare performance?
-4. How can analytics support executive quality-improvement decision-making?
 ---
 
 ## Key Findings
 
-The analysis consistently identified **Communication** and **Professional Care** as the strongest operational signals associated with overall patient satisfaction.
+Across multiple analytical approaches, **Communication** and **Professional Care** consistently emerged as the strongest operational signals associated with overall patient satisfaction.
 
 ### Relationship Analysis
 
 - **Professional Care** demonstrated the strongest direct relationship with Patient Rating (**r = 0.982**).
 - **Communication** also demonstrated a very strong relationship with Patient Rating (**r = 0.964**).
-- These relationships indicate strong associations within the analyzed state-level data and should not be interpreted as evidence of causation.
 
 ### Exploratory Machine Learning
 
-A Random Forest model was used to provide an additional perspective on operational feature importance.
-
-Leave-one-state-out sensitivity testing produced the following average feature importance:
+Leave-one-state-out sensitivity testing of the Random Forest feature rankings produced:
 
 | Operational Feature | Mean Importance |
-|---|---:|
+| --- | ---: |
 | Communication | **0.312** |
 | Professional Care | **0.262** |
 | Pain Medicines & Home Safety | 0.230 |
@@ -79,74 +74,46 @@ Communication ranked highest on average, while Professional Care demonstrated pa
 Using observed 75th-percentile performance values as improvement benchmarks:
 
 | Scenario | Predicted Patient Rating | Change vs. Baseline |
-|---|---:|---:|
+| --- | ---: | ---: |
 | Baseline | 84.60% | — |
 | Improve Communication | **85.30%** | **+0.70 pp** |
 | Improve Professional Care | 84.79% | +0.19 pp |
 | Improve Both | **85.48%** | **+0.88 pp** |
 
-The strongest modeled scenario occurred when **Communication and Professional Care were improved together**, while Communication produced the largest individual modeled improvement.
+Improving Communication produced the largest individual modeled improvement, while improving **Communication and Professional Care together** produced the strongest overall scenario result.
 
-> **Interpretation:** These results identify data-informed areas for further quality-improvement evaluation. Scenario estimates are model-based and should not be interpreted as guaranteed outcomes of operational interventions.
+> **Interpretation:** These findings identify data-informed areas for further quality-improvement evaluation. Because the analysis contains only 10 state-level observations, the machine-learning and scenario results are exploratory and should not be interpreted as causal or production-ready predictions.
+
 ---
 
 ## Project Workflow
 
-The project follows an end-to-end healthcare analytics workflow designed to move from raw quality data to executive decision support.
-
 ```text
 Medicare Home Health Survey Data
               │
-              ▼
      Data Quality Review
               │
-              ▼
  Exploratory Data Analysis
               │
-              ▼
    Relationship Analysis
               │
-              ▼
 Exploratory Machine Learning
               │
-              ▼
      Sensitivity Testing
               │
-              ▼
  Operational Scenario Analysis
               │
-              ▼
  Executive Recommendations
               │
-              ▼
  Tableau Executive Dashboard
 ```
 
-### Analytical Methodology
-
-**Data Quality Review**  
-Evaluated dataset structure, missing values, duplicate records, data types, and summary statistics before analysis.
-
-**Exploratory & Relationship Analysis**  
-Examined state-level quality performance and used correlation analysis to identify measures strongly associated with overall Patient Rating.
-
-**Exploratory Machine Learning**  
-Applied a Random Forest Regressor to evaluate the relative importance of operational features including Communication, Professional Care, Pain Medicines & Home Safety, Response Rate, and Completed Surveys.
-
-**Sensitivity Testing**  
-Used leave-one-state-out analysis to evaluate whether feature-importance rankings remained reasonably consistent when individual states were removed.
-
-**Operational Scenario Modeling**  
-Compared modeled Patient Rating under realistic improvement scenarios using observed 75th-percentile performance benchmarks for Communication and Professional Care.
-
-**Business Intelligence**  
-Developed an interactive Tableau Executive Dashboard to translate analytical findings into state-level performance monitoring and executive decision support.
 ---
 
 ## Tools & Technologies
 
 | Category | Technologies |
-|---|---|
+| --- | --- |
 | Programming | Python |
 | Data Analysis | Pandas, NumPy |
 | Machine Learning | Scikit-learn |
@@ -165,6 +132,17 @@ Developed an interactive Tableau Executive Dashboard to translate analytical fin
 - Leave-One-State-Out Sensitivity Testing
 - Operational Scenario Modeling
 - Executive Dashboard Development
+
+---
+
+## Business Impact
+
+The analysis suggests that **Communication should be considered a primary improvement priority, supported by continued focus on Professional Care**.
+
+Potential operational areas for further evaluation include clearer patient education, consistent care-plan communication, responsiveness to patient questions, and reinforcement of patient-centered communication practices.
+
+The Tableau Executive Dashboard extends the analysis into an interactive decision-support environment, allowing healthcare leaders to monitor patient satisfaction, recommendation rates, professional care performance, and survey volume across states.
+
 ---
 
 ## Repository Structure
@@ -191,22 +169,6 @@ Home-Health-Quality-Analytics/
     ├── Analysis_Inventory.docx
     └── Project_Vision.docx
 ```
-
-### Key Project Files
-
-- **Jupyter Notebook:** Complete analytical workflow, including data review, relationship analysis, exploratory machine learning, sensitivity testing, scenario modeling, and executive findings.
-- **Tableau Workbook:** Interactive executive dashboard for monitoring state-level healthcare quality performance.
-- **Dataset:** Medicare Home Health patient survey state data used throughout the analysis.
-- **Project Documentation:** Supporting analysis inventory and original project vision documenting the project's analytical foundation and development.
----
-
-## Business Impact
-
-The analysis identified **Communication and Professional Care** as the most consistent operational signals associated with patient satisfaction.
-
-For healthcare leaders, these findings provide data-informed areas for further quality-improvement evaluation, including patient communication, care-plan education, responsiveness, and professional care delivery.
-
-Because the analysis contains only **10 state-level observations**, the machine-learning and scenario results are exploratory and should not be interpreted as causal or production-ready predictions.
 
 ---
 
