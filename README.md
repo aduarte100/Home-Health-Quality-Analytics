@@ -14,7 +14,8 @@ This project analyzes state-level Medicare Home Health quality data to identify 
 
 **[View the Interactive Dashboard on Tableau Public →](https://public.tableau.com/app/profile/angeline.ortiz.de.los.santos/viz/HomeHealthQualityPerformanceAnalytics/ExecutiveDashboard?publish=yes)**
 
-*Interactive Tableau dashboard for monitoring patient satisfaction, recommendation rates, professional care performance, and survey volume across states. Click any state in the Patient Satisfaction by State chart to dynamically filter the dashboard.*
+Interactive Tableau dashboard for monitoring patient satisfaction, recommendation rates, professional care performance, and survey volume across states. Click any state in the Patient Satisfaction by State chart to dynamically filter the dashboard.
+
 ---
 
 ## Professional Project Report
