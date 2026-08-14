@@ -10,7 +10,7 @@ This project analyzes state-level Medicare Home Health quality data to identify 
 
 ## Executive Dashboard
 
-[![Home Health Quality Executive Dashboard](images/executive_dashboard.png)](https://public.tableau.com/app/profile/angeline.ortiz.de.los.santos/viz/HomeHealthQualityPerformanceAnalytics/ExecutiveDashboard?publish=yes)
+[![Home Health Quality Executive Dashboard](images/executive-dashboard.png)](https://public.tableau.com/app/profile/angeline.ortiz.de.los.santos/viz/HomeHealthQualityPerformanceAnalytics/ExecutiveDashboard?publish=yes)
 
 **[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/angeline.ortiz.de.los.santos/viz/HomeHealthQualityPerformanceAnalytics/ExecutiveDashboard?publish=yes)**
 
